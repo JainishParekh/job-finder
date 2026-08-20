@@ -9,7 +9,7 @@ from playwright.async_api import async_playwright
 load_dotenv()
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
     raise ValueError("Missing Supabase credentials. Check your root .env file.")
@@ -34,7 +34,7 @@ async def run_scraper():
     print("🚀 Starting XING Scraper...")
     
     # Target XING Search URL for Werkstudent Machine Learning jobs (Last 24 Hours)
-    target_url = "https://www.xing.com/jobs/search/ki?id=11b7b0838b0065cf251ae96c99bda6ac&keywords=workstudent%20machine%20learning&sincePeriod=LAST_24_HOURS"
+    target_url = "https://www.xing.com/jobs/search/ki?id=f0ddb892b765f4a1a6245b7c39584396&keywords=work%20student%20machine%20learning&sincePeriod=LAST_24_HOURS"
 
     async with async_playwright() as p:
         # Launch Chromium with low-RAM options
@@ -87,7 +87,7 @@ async def run_scraper():
             print(f"📋 Found {len(job_links)} potential job links on the feed.")
             
             # --- 2. PROCESS EACH JOB (Limit to 5 for initial testing) ---
-            for raw_url in job_links[:5]:
+            for raw_url in job_links:
                 # Clean URL (remove tracking parameters)
                 clean_url = raw_url.split('?')[0]
                 
@@ -102,7 +102,7 @@ async def run_scraper():
                     print(f"⏭️  Skipping {external_id} - Already in database.")
                     continue
                     
-                print(f"🔍 Scraping new XING job: {external_id}")
+                # print(f"🔍 Scraping new XING job: {external_id}")
                 
                 job_page = await context.new_page()
                 await job_page.route("**/*.{png,jpg,jpeg,gif,svg,woff,woff2}", lambda route: route.abort())
@@ -143,7 +143,7 @@ async def run_scraper():
                     }
                     supabase.table("applications").insert(app_data).execute()
                     
-                    print(f"✅ Successfully saved: {title[:50]}...")
+                    # print(f"✅ Successfully saved: {title[:50]}...")
                     
                 except Exception as e:
                     print(f"❌ Failed to scrape individual job page {clean_url}: {e}")

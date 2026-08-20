@@ -8,5 +8,6 @@ class Settings(BaseSettings):
     supabase_key: str
     admin_api_key: str
     supabase_password: str
+    supabase_service_key: str
 
 settings = Settings()
