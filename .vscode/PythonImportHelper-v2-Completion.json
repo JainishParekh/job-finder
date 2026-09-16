@@ -100,6 +100,22 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "backend.settings",
         "description": "backend.settings",
@@ -228,21 +244,175 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "norm",
+        "importPath": "numpy.linalg",
+        "description": "numpy.linalg",
+        "isExtraImport": true,
+        "detail": "numpy.linalg",
+        "documentation": {}
+    },
+    {
+        "label": "norm",
+        "importPath": "numpy.linalg",
+        "description": "numpy.linalg",
+        "isExtraImport": true,
+        "detail": "numpy.linalg",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "get_relevant_chunks",
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "isExtraImport": true,
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "SIMILARITY_GATE_THRESHOLD",
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "isExtraImport": true,
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "EMBEDDINGS_CACHE_PATH",
+        "importPath": "scraper.embeddings",
+        "description": "scraper.embeddings",
+        "isExtraImport": true,
+        "detail": "scraper.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNKS_CACHE_PATH",
+        "importPath": "scraper.embeddings",
+        "description": "scraper.embeddings",
+        "isExtraImport": true,
+        "detail": "scraper.embeddings",
+        "documentation": {}
+    },
+    {
         "label": "asyncio",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "asyncio",
         "description": "asyncio",
         "detail": "asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "hashlib",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "hashlib",
-        "description": "hashlib",
-        "detail": "hashlib",
         "documentation": {}
     },
     {
@@ -411,7 +581,7 @@
         "kind": 6,
         "importPath": "backend.settings",
         "description": "backend.settings",
-        "peekOfCode": "class Settings(BaseSettings):\n    model_config = SettingsConfigDict(env_file=\".env\", env_file_encoding=\"utf-8\")\n    supabase_url: str\n    supabase_key: str\n    admin_api_key: str\n    supabase_password: str\nsettings = Settings()",
+        "peekOfCode": "class Settings(BaseSettings):\n    model_config = SettingsConfigDict(env_file=\".env\", env_file_encoding=\"utf-8\")\n    supabase_url: str\n    supabase_key: str\n    admin_api_key: str\n    supabase_password: str\n    supabase_service_key: str\nsettings = Settings()",
         "detail": "backend.settings",
         "documentation": {}
     },
@@ -425,21 +595,300 @@
         "documentation": {}
     },
     {
+        "label": "parse_markdown_to_chunks",
+        "kind": 2,
+        "importPath": "rag.embeddings",
+        "description": "rag.embeddings",
+        "peekOfCode": "def parse_markdown_to_chunks(\n    filepath: Path,\n) -> list[dict]:\n    \"\"\"\n    Read Markdown and split it into semantic chunks.\n    \"\"\"\n    with open(filepath, \"r\", encoding=\"utf-8\") as f:\n        content = f.read()\n    raw_blocks = re.split(r\"\\n---\\n|\\n\\n\", content)\n    chunks = []",
+        "detail": "rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "generate_embeddings",
+        "kind": 2,
+        "importPath": "rag.embeddings",
+        "description": "rag.embeddings",
+        "peekOfCode": "def generate_embeddings():\n    \"\"\"\n    Read resume.md, create chunks,\n    generate embeddings and save them locally.\n    \"\"\"\n    if not RESUME_PATH.exists():\n        raise FileNotFoundError(f\"Resume not found: {RESUME_PATH}\")\n    print(f\"Loading embedding model: {MODEL_NAME}\")\n    model = SentenceTransformer(MODEL_NAME)\n    print(f\"Reading resume: {RESUME_PATH}\")",
+        "detail": "rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "rag.embeddings",
+        "description": "rag.embeddings",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nDATA_DIR = PROJECT_ROOT / \"data\"\nRESUME_PATH = DATA_DIR / \"resume.md\"\nEMBEDDINGS_CACHE_PATH = DATA_DIR / \"embeddings_cache.npy\"\nCHUNKS_CACHE_PATH = DATA_DIR / \"chunks_cache.json\"\n# --------------------------------------------------\n# Embedding model\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(",
+        "detail": "rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "rag.embeddings",
+        "description": "rag.embeddings",
+        "peekOfCode": "DATA_DIR = PROJECT_ROOT / \"data\"\nRESUME_PATH = DATA_DIR / \"resume.md\"\nEMBEDDINGS_CACHE_PATH = DATA_DIR / \"embeddings_cache.npy\"\nCHUNKS_CACHE_PATH = DATA_DIR / \"chunks_cache.json\"\n# --------------------------------------------------\n# Embedding model\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(\n    filepath: Path,",
+        "detail": "rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "RESUME_PATH",
+        "kind": 5,
+        "importPath": "rag.embeddings",
+        "description": "rag.embeddings",
+        "peekOfCode": "RESUME_PATH = DATA_DIR / \"resume.md\"\nEMBEDDINGS_CACHE_PATH = DATA_DIR / \"embeddings_cache.npy\"\nCHUNKS_CACHE_PATH = DATA_DIR / \"chunks_cache.json\"\n# --------------------------------------------------\n# Embedding model\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(\n    filepath: Path,\n) -> list[dict]:",
+        "detail": "rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "EMBEDDINGS_CACHE_PATH",
+        "kind": 5,
+        "importPath": "rag.embeddings",
+        "description": "rag.embeddings",
+        "peekOfCode": "EMBEDDINGS_CACHE_PATH = DATA_DIR / \"embeddings_cache.npy\"\nCHUNKS_CACHE_PATH = DATA_DIR / \"chunks_cache.json\"\n# --------------------------------------------------\n# Embedding model\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(\n    filepath: Path,\n) -> list[dict]:\n    \"\"\"",
+        "detail": "rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNKS_CACHE_PATH",
+        "kind": 5,
+        "importPath": "rag.embeddings",
+        "description": "rag.embeddings",
+        "peekOfCode": "CHUNKS_CACHE_PATH = DATA_DIR / \"chunks_cache.json\"\n# --------------------------------------------------\n# Embedding model\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(\n    filepath: Path,\n) -> list[dict]:\n    \"\"\"\n    Read Markdown and split it into semantic chunks.",
+        "detail": "rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_NAME",
+        "kind": 5,
+        "importPath": "rag.embeddings",
+        "description": "rag.embeddings",
+        "peekOfCode": "MODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(\n    filepath: Path,\n) -> list[dict]:\n    \"\"\"\n    Read Markdown and split it into semantic chunks.\n    \"\"\"\n    with open(filepath, \"r\", encoding=\"utf-8\") as f:\n        content = f.read()\n    raw_blocks = re.split(r\"\\n---\\n|\\n\\n\", content)",
+        "detail": "rag.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "get_relevant_chunks",
+        "kind": 2,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "def get_relevant_chunks(\n    job_description: str,\n    top_k: int = 4,\n) -> tuple[str, float]:\n    \"\"\"\n    Retrieve the most relevant resume chunks for a given job description.\n    Returns:\n        relevant_experience\n        max_similarity\n    \"\"\"",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nDATA_DIR = PROJECT_ROOT / \"data\"\nEMBEDDINGS_CACHE_PATH = (DATA_DIR / \"embeddings_cache.npy\")\nCHUNKS_CACHE_PATH = (DATA_DIR / \"chunks_cache.json\")\n# --------------------------------------------------\n# Configuration\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\nSIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "DATA_DIR = PROJECT_ROOT / \"data\"\nEMBEDDINGS_CACHE_PATH = (DATA_DIR / \"embeddings_cache.npy\")\nCHUNKS_CACHE_PATH = (DATA_DIR / \"chunks_cache.json\")\n# --------------------------------------------------\n# Configuration\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\nSIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------\n# Lazy-loaded objects",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "EMBEDDINGS_CACHE_PATH",
+        "kind": 5,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "EMBEDDINGS_CACHE_PATH = (DATA_DIR / \"embeddings_cache.npy\")\nCHUNKS_CACHE_PATH = (DATA_DIR / \"chunks_cache.json\")\n# --------------------------------------------------\n# Configuration\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\nSIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------\n# Lazy-loaded objects\n# --------------------------------------------------",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNKS_CACHE_PATH",
+        "kind": 5,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "CHUNKS_CACHE_PATH = (DATA_DIR / \"chunks_cache.json\")\n# --------------------------------------------------\n# Configuration\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\nSIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------\n# Lazy-loaded objects\n# --------------------------------------------------\n_embedder = None",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_NAME",
+        "kind": 5,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "MODEL_NAME = \"all-MiniLM-L6-v2\"\nSIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------\n# Lazy-loaded objects\n# --------------------------------------------------\n_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "SIMILARITY_GATE_THRESHOLD",
+        "kind": 5,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "SIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------\n# Lazy-loaded objects\n# --------------------------------------------------\n_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "_embedder",
+        "kind": 5,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        print(f\"Loading embedding model: {MODEL_NAME}\")\n        _embedder = SentenceTransformer(MODEL_NAME)\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists():",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "_resume_embeddings",
+        "kind": 5,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        print(f\"Loading embedding model: {MODEL_NAME}\")\n        _embedder = SentenceTransformer(MODEL_NAME)\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists():\n            raise RuntimeError(",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "_resume_chunks",
+        "kind": 5,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        print(f\"Loading embedding model: {MODEL_NAME}\")\n        _embedder = SentenceTransformer(MODEL_NAME)\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists():\n            raise RuntimeError(\n                \"Embedding cache missing. \"",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredResume",
+        "kind": 6,
+        "importPath": "scrapper.llm.job_matcher",
+        "description": "scrapper.llm.job_matcher",
+        "peekOfCode": "class TailoredResume(BaseModel):\n    company_name: str\n    company_location: str\n    match_score: int\n    match_reasoning: str\n    tailored_bullet_1: str\n    tailored_bullet_2: str\n    tailored_bullet_3: str\n# --------------------------------------------------\n# Groq client",
+        "detail": "scrapper.llm.job_matcher",
+        "documentation": {}
+    },
+    {
+        "label": "generate_tailored_content",
+        "kind": 2,
+        "importPath": "scrapper.llm.job_matcher",
+        "description": "scrapper.llm.job_matcher",
+        "peekOfCode": "def generate_tailored_content(job_description: str, max_retries: int = MAX_RETRIES) -> dict:\n    \"\"\"\n    Retrieve relevant candidate experience and use Groq to evaluate the job and\n    generate tailored content.\n    \"\"\"\n    # ----------------------------------------------\n    # 1. Retrieve relevant resume experience\n    # ----------------------------------------------\n    (relevant_experience, similarity_score) = get_relevant_chunks(job_description)\n    # ----------------------------------------------",
+        "detail": "scrapper.llm.job_matcher",
+        "documentation": {}
+    },
+    {
+        "label": "GROQ_MODEL",
+        "kind": 5,
+        "importPath": "scrapper.llm.job_matcher",
+        "description": "scrapper.llm.job_matcher",
+        "peekOfCode": "GROQ_MODEL = \"llama-3.3-70b-versatile\"\nMAX_RETRIES = 3\n# --------------------------------------------------\n# Output schema\n# --------------------------------------------------\nclass TailoredResume(BaseModel):\n    company_name: str\n    company_location: str\n    match_score: int\n    match_reasoning: str",
+        "detail": "scrapper.llm.job_matcher",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_RETRIES",
+        "kind": 5,
+        "importPath": "scrapper.llm.job_matcher",
+        "description": "scrapper.llm.job_matcher",
+        "peekOfCode": "MAX_RETRIES = 3\n# --------------------------------------------------\n# Output schema\n# --------------------------------------------------\nclass TailoredResume(BaseModel):\n    company_name: str\n    company_location: str\n    match_score: int\n    match_reasoning: str\n    tailored_bullet_1: str",
+        "detail": "scrapper.llm.job_matcher",
+        "documentation": {}
+    },
+    {
+        "label": "groq_client",
+        "kind": 5,
+        "importPath": "scrapper.llm.job_matcher",
+        "description": "scrapper.llm.job_matcher",
+        "peekOfCode": "groq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# --------------------------------------------------\n# Main function\n# --------------------------------------------------\ndef generate_tailored_content(job_description: str, max_retries: int = MAX_RETRIES) -> dict:\n    \"\"\"\n    Retrieve relevant candidate experience and use Groq to evaluate the job and\n    generate tailored content.\n    \"\"\"\n    # ----------------------------------------------",
+        "detail": "scrapper.llm.job_matcher",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredResume",
+        "kind": 6,
+        "importPath": "scrapper.llm",
+        "description": "scrapper.llm",
+        "peekOfCode": "class TailoredResume(BaseModel):\n    company_name: str\n    company_location: str\n    match_score: int  # 0-100, Groq's holistic judgment (not the cosine similarity number)\n    match_reasoning: str\n    tailored_bullet_1: str\n    tailored_bullet_2: str\n    tailored_bullet_3: str\n    @property\n    def is_worth_reviewing(self) -> bool:",
+        "detail": "scrapper.llm",
+        "documentation": {}
+    },
+    {
+        "label": "get_relevant_chunks",
+        "kind": 2,
+        "importPath": "scrapper.llm",
+        "description": "scrapper.llm",
+        "peekOfCode": "def get_relevant_chunks(job_description: str, top_k: int = 4) -> tuple[str, float]:\n    \"\"\"\n    Computes cosine similarity in-memory and returns:\n    - the formatted text of the most relevant resume chunks\n    - the MAX similarity score among them (cheap relevance signal, used as a pre-filter gate —\n      NOT the same as Groq's match_score, which is a full judgment, not a distance metric)\n    \"\"\"\n    _ensure_loaded()\n    jd_embedding = _embedder.encode(job_description)\n    similarities = np.dot(_resume_embeddings, jd_embedding) / (",
+        "detail": "scrapper.llm",
+        "documentation": {}
+    },
+    {
+        "label": "generate_tailored_content",
+        "kind": 2,
+        "importPath": "scrapper.llm",
+        "description": "scrapper.llm",
+        "peekOfCode": "def generate_tailored_content(job_description: str, max_retries: int = 3) -> dict:\n    \"\"\"\n    Passes retrieved chunks and JD to Groq, forces JSON, and validates via Pydantic.\n    Returns one of:\n      {\"success\": True, \"data\": {...}}\n      {\"success\": False, \"reason\": \"LOW_SIMILARITY\", \"similarity_score\": float}   # skipped, no API call spent\n      {\"success\": False, \"reason\": \"VALIDATION_FAILED\", \"error\": \"...\"}\n    No silent placeholder fallback: bad or low-relevance output should never look like a real result.\n    \"\"\"\n    relevant_experience, similarity_score = get_relevant_chunks(job_description)",
+        "detail": "scrapper.llm",
+        "documentation": {}
+    },
+    {
+        "label": "SIMILARITY_GATE_THRESHOLD",
+        "kind": 5,
+        "importPath": "scrapper.llm",
+        "description": "scrapper.llm",
+        "peekOfCode": "SIMILARITY_GATE_THRESHOLD = 0.25\ngroq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# Lazy-loaded globals — populated on first call, not at import time,\n# so importing this module doesn't crash if the cache doesn't exist yet.\n_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:",
+        "detail": "scrapper.llm",
+        "documentation": {}
+    },
+    {
+        "label": "groq_client",
+        "kind": 5,
+        "importPath": "scrapper.llm",
+        "description": "scrapper.llm",
+        "peekOfCode": "groq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# Lazy-loaded globals — populated on first call, not at import time,\n# so importing this module doesn't crash if the cache doesn't exist yet.\n_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        _embedder = SentenceTransformer('all-MiniLM-L6-v2')",
+        "detail": "scrapper.llm",
+        "documentation": {}
+    },
+    {
+        "label": "_embedder",
+        "kind": 5,
+        "importPath": "scrapper.llm",
+        "description": "scrapper.llm",
+        "peekOfCode": "_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        _embedder = SentenceTransformer('all-MiniLM-L6-v2')\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists() or not CHUNKS_CACHE_PATH.exists():\n            raise RuntimeError(",
+        "detail": "scrapper.llm",
+        "documentation": {}
+    },
+    {
+        "label": "_resume_embeddings",
+        "kind": 5,
+        "importPath": "scrapper.llm",
+        "description": "scrapper.llm",
+        "peekOfCode": "_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        _embedder = SentenceTransformer('all-MiniLM-L6-v2')\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists() or not CHUNKS_CACHE_PATH.exists():\n            raise RuntimeError(\n                \"Embedding cache missing. Run 'python -m scraper.embeddings_fixed' first.\"",
+        "detail": "scrapper.llm",
+        "documentation": {}
+    },
+    {
+        "label": "_resume_chunks",
+        "kind": 5,
+        "importPath": "scrapper.llm",
+        "description": "scrapper.llm",
+        "peekOfCode": "_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        _embedder = SentenceTransformer('all-MiniLM-L6-v2')\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists() or not CHUNKS_CACHE_PATH.exists():\n            raise RuntimeError(\n                \"Embedding cache missing. Run 'python -m scraper.embeddings_fixed' first.\"\n            )",
+        "detail": "scrapper.llm",
+        "documentation": {}
+    },
+    {
         "label": "SUPABASE_URL",
         "kind": 5,
-        "importPath": "scrapper.main_scrapper",
-        "description": "scrapper.main_scrapper",
-        "peekOfCode": "SUPABASE_URL = os.getenv(\"SUPABASE_URL\")\nSUPABASE_KEY = os.getenv(\"SUPABASE_KEY\")\nif not SUPABASE_URL or not SUPABASE_KEY:\n    raise ValueError(\"Missing Supabase credentials. Check your root .env file.\")\n# Initialize Supabase Client\nsupabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)\nasync def handle_cookie_consent(page):\n    \"\"\"\n    Dismisses XING cookie banners if they pop up.\n    \"\"\"",
-        "detail": "scrapper.main_scrapper",
+        "importPath": "scrapper.xing",
+        "description": "scrapper.xing",
+        "peekOfCode": "SUPABASE_URL = os.getenv(\"SUPABASE_URL\")\nSUPABASE_KEY = os.getenv(\"SUPABASE_SERVICE_KEY\")\nif not SUPABASE_URL or not SUPABASE_KEY:\n    raise ValueError(\"Missing Supabase credentials. Check your root .env file.\")\n# Initialize Supabase Client\nsupabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)\nasync def handle_cookie_consent(page):\n    \"\"\"\n    Dismisses XING cookie banners if they pop up.\n    \"\"\"",
+        "detail": "scrapper.xing",
         "documentation": {}
     },
     {
         "label": "SUPABASE_KEY",
         "kind": 5,
-        "importPath": "scrapper.main_scrapper",
-        "description": "scrapper.main_scrapper",
-        "peekOfCode": "SUPABASE_KEY = os.getenv(\"SUPABASE_KEY\")\nif not SUPABASE_URL or not SUPABASE_KEY:\n    raise ValueError(\"Missing Supabase credentials. Check your root .env file.\")\n# Initialize Supabase Client\nsupabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)\nasync def handle_cookie_consent(page):\n    \"\"\"\n    Dismisses XING cookie banners if they pop up.\n    \"\"\"\n    try:",
-        "detail": "scrapper.main_scrapper",
+        "importPath": "scrapper.xing",
+        "description": "scrapper.xing",
+        "peekOfCode": "SUPABASE_KEY = os.getenv(\"SUPABASE_SERVICE_KEY\")\nif not SUPABASE_URL or not SUPABASE_KEY:\n    raise ValueError(\"Missing Supabase credentials. Check your root .env file.\")\n# Initialize Supabase Client\nsupabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)\nasync def handle_cookie_consent(page):\n    \"\"\"\n    Dismisses XING cookie banners if they pop up.\n    \"\"\"\n    try:",
+        "detail": "scrapper.xing",
         "documentation": {}
     }
 ]
