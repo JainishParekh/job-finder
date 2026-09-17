@@ -1,0 +1,66 @@
+{
+    "jobPreferences": {
+        "employment": {
+            "preferred": [
+                "Working Student",
+                "Werkstudent",
+                "Internship",
+                "Student Assistant",
+                "HiWi"
+            ],
+            "avoid": [
+                "Full-time permanent roles"
+            ]
+        },
+        "workingHours": {
+            "preferred": [
+                "15–20 hours/week while classes are ongoing",
+                "35-40 hours/week without class period"
+            ]
+        },
+        "location": {
+            "preferred": [
+                "Germany",
+                "Remote Germany",
+                "Hybrid Germany"
+            ]
+        },
+        "technology": {
+            "highInterest": [
+                "Applied AI",
+                "Machine Learning",
+                "LLM",
+                "RAG",
+                "Computer vision",
+                "Generative AI",
+                "Deep Learning",
+                "Python",
+                "FastAPI",
+                "Backend",
+                "Software Engineering",
+                "Computer Vision",
+                "React",
+                "TypeScript",
+                "Node.js",
+                "Nest.js",
+                "Next.js"
+            ]
+        },
+        "language": {
+            "preferred": [
+                "English-friendly positions - current level C1 level",
+                "German A2/B1 acceptable"
+            ]
+        },
+        "salary": {
+            "preferred": [
+                "15 EUR/hr",
+                "Workstudent role"
+            ]
+        },
+        "notes": [
+            "Everything mentioned in preferred is 'GOOD TO HAVE' but not compulsory.",
+            "While Avoid is compulsory, that it should not be there."
+        ]
+    }
+}

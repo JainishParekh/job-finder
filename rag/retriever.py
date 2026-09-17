@@ -1,114 +1,68 @@
-from pathlib import Path
-import json
+from rag.chroma import get_candidate_collection
 
-import numpy as np
-from numpy.linalg import norm
-from sentence_transformers import SentenceTransformer
-
-
-# --------------------------------------------------
-# Paths
-# --------------------------------------------------
-
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-
-DATA_DIR = PROJECT_ROOT / "data"
-
-EMBEDDINGS_CACHE_PATH = (DATA_DIR / "embeddings_cache.npy")
-
-CHUNKS_CACHE_PATH = (DATA_DIR / "chunks_cache.json")
-
-
-# --------------------------------------------------
+# ============================================================
 # Configuration
-# --------------------------------------------------
+# ============================================================
 
-MODEL_NAME = "all-MiniLM-L6-v2"
-
-SIMILARITY_GATE_THRESHOLD = 0.25
+DEFAULT_TOP_K = 8
 
 
-# --------------------------------------------------
-# Lazy-loaded objects
-# --------------------------------------------------
-
-_embedder = None
-_resume_embeddings = None
-_resume_chunks = None
+# ============================================================
+# Candidate Retrieval
+# ============================================================
 
 
-def _ensure_loaded():
-
-    global _embedder, _resume_embeddings, _resume_chunks
-
-    if _embedder is None:
-
-        print(f"Loading embedding model: {MODEL_NAME}")
-
-        _embedder = SentenceTransformer(MODEL_NAME)
-
-    if _resume_embeddings is None or _resume_chunks is None:
-
-        if not EMBEDDINGS_CACHE_PATH.exists():
-
-            raise RuntimeError(
-                "Embedding cache missing. "
-                "Run:\n\n"
-                "python -m rag.embeddings")
-
-        if not CHUNKS_CACHE_PATH.exists():
-
-            raise RuntimeError(
-                "Chunk cache missing. "
-                "Run:\n\n"
-                "python -m rag.embeddings"
-            )
-
-        _resume_embeddings = np.load(EMBEDDINGS_CACHE_PATH)
-
-        with open(CHUNKS_CACHE_PATH, "r", encoding="utf-8") as f:
-            _resume_chunks = json.load(f)
-
-
-def get_relevant_chunks(
+def retrieve_candidate_documents(
     job_description: str,
-    top_k: int = 4,
-) -> tuple[str, float]:
-
+    top_k: int = DEFAULT_TOP_K,
+):
     """
-    Retrieve the most relevant resume chunks for a given job description.
+    Retrieve candidate evidence relevant to a job description.
 
-    Returns:
-        relevant_experience
-        max_similarity
+    Returns Chroma results containing:
+        - documents
+        - metadatas
+        - distances
     """
 
-    _ensure_loaded()
+    collection = get_candidate_collection()
 
-    job_embedding = _embedder.encode(job_description, normalize_embeddings=True)
-
-    similarities = np.dot(_resume_embeddings, job_embedding)
-
-    top_indices = np.argsort(similarities)[::-1][:top_k]
-
-    max_similarity = (
-        float(similarities[top_indices[0]])
-        if len(top_indices)
-        else 0.0
+    results = collection.query(
+        query_texts=[job_description],
+        n_results=top_k,
     )
 
-    chunks_text = "\n\n".join(
-        (
-            "--- RELEVANT EXPERIENCE ---\n"
-            + _resume_chunks[i]["content"]
-        )
-        for i in top_indices
+    return results
+
+
+# ============================================================
+# Formatted Retrieval
+# ============================================================
+
+
+def get_relevant_candidate_context(
+    job_description: str,
+    top_k: int = DEFAULT_TOP_K,
+) -> str:
+
+    results = retrieve_candidate_documents(
+        job_description,
+        top_k=top_k,
     )
 
-    return (
-        chunks_text,
-        max_similarity,
+    documents = results.get("documents", [[]])[0]
+
+    if not documents:
+        return ""
+
+    return "\n\n".join(
+        ["--- CANDIDATE EVIDENCE ---\n" + document for document in documents]
     )
+
+
+# ============================================================
+# Debug / Manual Test
+# ============================================================
 
 
 if __name__ == "__main__":
@@ -119,12 +73,22 @@ if __name__ == "__main__":
     and React experience.
     """
 
-    chunks, score = get_relevant_chunks(
-        sample_job
+    results = retrieve_candidate_documents(
+        sample_job,
+        top_k=8,
     )
 
-    print(
-        f"\nSimilarity: {score:.3f}\n"
-    )
+    documents = results["documents"][0]
+    metadatas = results["metadatas"][0]
+    distances = results["distances"][0]
 
-    print(chunks)
+    for index, (document, metadata, distance) in enumerate(
+        zip(documents, metadatas, distances),
+        start=1,
+    ):
+
+        print("\n" + "=" * 70)
+        print(f"Result {index}")
+        print(f"Distance: {distance:.4f}")
+        print(f"Metadata: {metadata}")
+        print(document)

@@ -108,14 +108,6 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
         "label": "settings",
         "importPath": "backend.settings",
         "description": "backend.settings",
@@ -244,19 +236,115 @@
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
         "isExtraImport": true,
-        "detail": "pathlib",
+        "detail": "groq",
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
         "isExtraImport": true,
-        "detail": "pathlib",
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "JobMatch",
+        "importPath": "schemas.job_match",
+        "description": "schemas.job_match",
+        "isExtraImport": true,
+        "detail": "schemas.job_match",
+        "documentation": {}
+    },
+    {
+        "label": "JobMatch",
+        "importPath": "schemas.job_match",
+        "description": "schemas.job_match",
+        "isExtraImport": true,
+        "detail": "schemas.job_match",
+        "documentation": {}
+    },
+    {
+        "label": "CandidateProfile",
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "isExtraImport": true,
+        "detail": "schemas.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "CandidateProfile",
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "isExtraImport": true,
+        "detail": "schemas.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "CandidateProfile",
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "isExtraImport": true,
+        "detail": "schemas.candidate_profile",
         "documentation": {}
     },
     {
@@ -269,141 +357,116 @@
         "documentation": {}
     },
     {
-        "label": "re",
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "chromadb",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
+        "importPath": "chromadb",
+        "description": "chromadb",
+        "detail": "chromadb",
         "documentation": {}
     },
     {
-        "label": "numpy",
-        "kind": 6,
+        "label": "SentenceTransformerEmbeddingFunction",
+        "importPath": "chromadb.utils.embedding_functions",
+        "description": "chromadb.utils.embedding_functions",
         "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
+        "detail": "chromadb.utils.embedding_functions",
         "documentation": {}
     },
     {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
+        "label": "load_candidate_profile",
+        "importPath": "rag.candidate_profile",
+        "description": "rag.candidate_profile",
         "isExtraImport": true,
-        "detail": "sentence_transformers",
+        "detail": "rag.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
+        "label": "load_candidate_profile",
+        "importPath": "rag.candidate_profile",
+        "description": "rag.candidate_profile",
         "isExtraImport": true,
-        "detail": "sentence_transformers",
+        "detail": "rag.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
+        "label": "load_candidate_profile",
+        "importPath": "rag.candidate_profile",
+        "description": "rag.candidate_profile",
         "isExtraImport": true,
-        "detail": "sentence_transformers",
+        "detail": "rag.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "norm",
-        "importPath": "numpy.linalg",
-        "description": "numpy.linalg",
+        "label": "load_candidate_profile",
+        "importPath": "rag.candidate_profile",
+        "description": "rag.candidate_profile",
         "isExtraImport": true,
-        "detail": "numpy.linalg",
+        "detail": "rag.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "norm",
-        "importPath": "numpy.linalg",
-        "description": "numpy.linalg",
+        "label": "get_candidate_collection",
+        "importPath": "rag.chroma",
+        "description": "rag.chroma",
         "isExtraImport": true,
-        "detail": "numpy.linalg",
+        "detail": "rag.chroma",
         "documentation": {}
     },
     {
-        "label": "Groq",
-        "importPath": "groq",
-        "description": "groq",
+        "label": "get_candidate_collection",
+        "importPath": "rag.chroma",
+        "description": "rag.chroma",
         "isExtraImport": true,
-        "detail": "groq",
+        "detail": "rag.chroma",
         "documentation": {}
     },
     {
-        "label": "Groq",
-        "importPath": "groq",
-        "description": "groq",
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "groq",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "ValidationError",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "ValidationError",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "get_relevant_chunks",
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "isExtraImport": true,
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "SIMILARITY_GATE_THRESHOLD",
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "isExtraImport": true,
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "EMBEDDINGS_CACHE_PATH",
-        "importPath": "scraper.embeddings",
-        "description": "scraper.embeddings",
-        "isExtraImport": true,
-        "detail": "scraper.embeddings",
-        "documentation": {}
-    },
-    {
-        "label": "CHUNKS_CACHE_PATH",
-        "importPath": "scraper.embeddings",
-        "description": "scraper.embeddings",
-        "isExtraImport": true,
-        "detail": "scraper.embeddings",
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -421,6 +484,214 @@
         "description": "playwright.async_api",
         "isExtraImport": true,
         "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "build_documents",
+        "importPath": "rag.ingest",
+        "description": "rag.ingest",
+        "isExtraImport": true,
+        "detail": "rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_job_match",
+        "importPath": "llm.matcher",
+        "description": "llm.matcher",
+        "isExtraImport": true,
+        "detail": "llm.matcher",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_job_match",
+        "importPath": "llm.matcher",
+        "description": "llm.matcher",
+        "isExtraImport": true,
+        "detail": "llm.matcher",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_candidate_documents",
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "isExtraImport": true,
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "get_relevant_candidate_context",
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "isExtraImport": true,
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "get_relevant_candidate_context",
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "isExtraImport": true,
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "build_job_graph",
+        "importPath": "workflow.graph",
+        "description": "workflow.graph",
+        "isExtraImport": true,
+        "detail": "workflow.graph",
+        "documentation": {}
+    },
+    {
+        "label": "JobState",
+        "importPath": "workflow.state",
+        "description": "workflow.state",
+        "isExtraImport": true,
+        "detail": "workflow.state",
+        "documentation": {}
+    },
+    {
+        "label": "JobState",
+        "importPath": "workflow.state",
+        "description": "workflow.state",
+        "isExtraImport": true,
+        "detail": "workflow.state",
+        "documentation": {}
+    },
+    {
+        "label": "JobState",
+        "importPath": "workflow.state",
+        "description": "workflow.state",
+        "isExtraImport": true,
+        "detail": "workflow.state",
+        "documentation": {}
+    },
+    {
+        "label": "JobState",
+        "importPath": "workflow.state",
+        "description": "workflow.state",
+        "isExtraImport": true,
+        "detail": "workflow.state",
+        "documentation": {}
+    },
+    {
+        "label": "JobState",
+        "importPath": "workflow.state",
+        "description": "workflow.state",
+        "isExtraImport": true,
+        "detail": "workflow.state",
+        "documentation": {}
+    },
+    {
+        "label": "JobState",
+        "importPath": "workflow.state",
+        "description": "workflow.state",
+        "isExtraImport": true,
+        "detail": "workflow.state",
+        "documentation": {}
+    },
+    {
+        "label": "JobState",
+        "importPath": "workflow.state",
+        "description": "workflow.state",
+        "isExtraImport": true,
+        "detail": "workflow.state",
+        "documentation": {}
+    },
+    {
+        "label": "Constants",
+        "importPath": "workflow.constants",
+        "description": "workflow.constants",
+        "isExtraImport": true,
+        "detail": "workflow.constants",
+        "documentation": {}
+    },
+    {
+        "label": "Constants",
+        "importPath": "workflow.constants",
+        "description": "workflow.constants",
+        "isExtraImport": true,
+        "detail": "workflow.constants",
+        "documentation": {}
+    },
+    {
+        "label": "Constants",
+        "importPath": "workflow.constants",
+        "description": "workflow.constants",
+        "isExtraImport": true,
+        "detail": "workflow.constants",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_job_node",
+        "importPath": "workflow.nodes.analyze_job",
+        "description": "workflow.nodes.analyze_job",
+        "isExtraImport": true,
+        "detail": "workflow.nodes.analyze_job",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_candidate_evidence",
+        "importPath": "workflow.nodes.retrieve_context",
+        "description": "workflow.nodes.retrieve_context",
+        "isExtraImport": true,
+        "detail": "workflow.nodes.retrieve_context",
+        "documentation": {}
+    },
+    {
+        "label": "generate_tailored_resume",
+        "importPath": "workflow.nodes.tailor_resume",
+        "description": "workflow.nodes.tailor_resume",
+        "isExtraImport": true,
+        "detail": "workflow.nodes.tailor_resume",
+        "documentation": {}
+    },
+    {
+        "label": "generate_cover_letter",
+        "importPath": "workflow.nodes.generate_cover_letter",
+        "description": "workflow.nodes.generate_cover_letter",
+        "isExtraImport": true,
+        "detail": "workflow.nodes.generate_cover_letter",
+        "documentation": {}
+    },
+    {
+        "label": "verify_and_filter_analyzed_job",
+        "importPath": "workflow.nodes.verify_output",
+        "description": "workflow.nodes.verify_output",
+        "isExtraImport": true,
+        "detail": "workflow.nodes.verify_output",
         "documentation": {}
     },
     {
@@ -595,282 +866,282 @@
         "documentation": {}
     },
     {
-        "label": "parse_markdown_to_chunks",
+        "label": "analyze_job_match",
         "kind": 2,
-        "importPath": "rag.embeddings",
-        "description": "rag.embeddings",
-        "peekOfCode": "def parse_markdown_to_chunks(\n    filepath: Path,\n) -> list[dict]:\n    \"\"\"\n    Read Markdown and split it into semantic chunks.\n    \"\"\"\n    with open(filepath, \"r\", encoding=\"utf-8\") as f:\n        content = f.read()\n    raw_blocks = re.split(r\"\\n---\\n|\\n\\n\", content)\n    chunks = []",
-        "detail": "rag.embeddings",
-        "documentation": {}
-    },
-    {
-        "label": "generate_embeddings",
-        "kind": 2,
-        "importPath": "rag.embeddings",
-        "description": "rag.embeddings",
-        "peekOfCode": "def generate_embeddings():\n    \"\"\"\n    Read resume.md, create chunks,\n    generate embeddings and save them locally.\n    \"\"\"\n    if not RESUME_PATH.exists():\n        raise FileNotFoundError(f\"Resume not found: {RESUME_PATH}\")\n    print(f\"Loading embedding model: {MODEL_NAME}\")\n    model = SentenceTransformer(MODEL_NAME)\n    print(f\"Reading resume: {RESUME_PATH}\")",
-        "detail": "rag.embeddings",
-        "documentation": {}
-    },
-    {
-        "label": "PROJECT_ROOT",
-        "kind": 5,
-        "importPath": "rag.embeddings",
-        "description": "rag.embeddings",
-        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nDATA_DIR = PROJECT_ROOT / \"data\"\nRESUME_PATH = DATA_DIR / \"resume.md\"\nEMBEDDINGS_CACHE_PATH = DATA_DIR / \"embeddings_cache.npy\"\nCHUNKS_CACHE_PATH = DATA_DIR / \"chunks_cache.json\"\n# --------------------------------------------------\n# Embedding model\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(",
-        "detail": "rag.embeddings",
-        "documentation": {}
-    },
-    {
-        "label": "DATA_DIR",
-        "kind": 5,
-        "importPath": "rag.embeddings",
-        "description": "rag.embeddings",
-        "peekOfCode": "DATA_DIR = PROJECT_ROOT / \"data\"\nRESUME_PATH = DATA_DIR / \"resume.md\"\nEMBEDDINGS_CACHE_PATH = DATA_DIR / \"embeddings_cache.npy\"\nCHUNKS_CACHE_PATH = DATA_DIR / \"chunks_cache.json\"\n# --------------------------------------------------\n# Embedding model\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(\n    filepath: Path,",
-        "detail": "rag.embeddings",
-        "documentation": {}
-    },
-    {
-        "label": "RESUME_PATH",
-        "kind": 5,
-        "importPath": "rag.embeddings",
-        "description": "rag.embeddings",
-        "peekOfCode": "RESUME_PATH = DATA_DIR / \"resume.md\"\nEMBEDDINGS_CACHE_PATH = DATA_DIR / \"embeddings_cache.npy\"\nCHUNKS_CACHE_PATH = DATA_DIR / \"chunks_cache.json\"\n# --------------------------------------------------\n# Embedding model\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(\n    filepath: Path,\n) -> list[dict]:",
-        "detail": "rag.embeddings",
-        "documentation": {}
-    },
-    {
-        "label": "EMBEDDINGS_CACHE_PATH",
-        "kind": 5,
-        "importPath": "rag.embeddings",
-        "description": "rag.embeddings",
-        "peekOfCode": "EMBEDDINGS_CACHE_PATH = DATA_DIR / \"embeddings_cache.npy\"\nCHUNKS_CACHE_PATH = DATA_DIR / \"chunks_cache.json\"\n# --------------------------------------------------\n# Embedding model\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(\n    filepath: Path,\n) -> list[dict]:\n    \"\"\"",
-        "detail": "rag.embeddings",
-        "documentation": {}
-    },
-    {
-        "label": "CHUNKS_CACHE_PATH",
-        "kind": 5,
-        "importPath": "rag.embeddings",
-        "description": "rag.embeddings",
-        "peekOfCode": "CHUNKS_CACHE_PATH = DATA_DIR / \"chunks_cache.json\"\n# --------------------------------------------------\n# Embedding model\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(\n    filepath: Path,\n) -> list[dict]:\n    \"\"\"\n    Read Markdown and split it into semantic chunks.",
-        "detail": "rag.embeddings",
-        "documentation": {}
-    },
-    {
-        "label": "MODEL_NAME",
-        "kind": 5,
-        "importPath": "rag.embeddings",
-        "description": "rag.embeddings",
-        "peekOfCode": "MODEL_NAME = \"all-MiniLM-L6-v2\"\ndef parse_markdown_to_chunks(\n    filepath: Path,\n) -> list[dict]:\n    \"\"\"\n    Read Markdown and split it into semantic chunks.\n    \"\"\"\n    with open(filepath, \"r\", encoding=\"utf-8\") as f:\n        content = f.read()\n    raw_blocks = re.split(r\"\\n---\\n|\\n\\n\", content)",
-        "detail": "rag.embeddings",
-        "documentation": {}
-    },
-    {
-        "label": "get_relevant_chunks",
-        "kind": 2,
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "peekOfCode": "def get_relevant_chunks(\n    job_description: str,\n    top_k: int = 4,\n) -> tuple[str, float]:\n    \"\"\"\n    Retrieve the most relevant resume chunks for a given job description.\n    Returns:\n        relevant_experience\n        max_similarity\n    \"\"\"",
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "PROJECT_ROOT",
-        "kind": 5,
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nDATA_DIR = PROJECT_ROOT / \"data\"\nEMBEDDINGS_CACHE_PATH = (DATA_DIR / \"embeddings_cache.npy\")\nCHUNKS_CACHE_PATH = (DATA_DIR / \"chunks_cache.json\")\n# --------------------------------------------------\n# Configuration\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\nSIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------",
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "DATA_DIR",
-        "kind": 5,
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "peekOfCode": "DATA_DIR = PROJECT_ROOT / \"data\"\nEMBEDDINGS_CACHE_PATH = (DATA_DIR / \"embeddings_cache.npy\")\nCHUNKS_CACHE_PATH = (DATA_DIR / \"chunks_cache.json\")\n# --------------------------------------------------\n# Configuration\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\nSIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------\n# Lazy-loaded objects",
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "EMBEDDINGS_CACHE_PATH",
-        "kind": 5,
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "peekOfCode": "EMBEDDINGS_CACHE_PATH = (DATA_DIR / \"embeddings_cache.npy\")\nCHUNKS_CACHE_PATH = (DATA_DIR / \"chunks_cache.json\")\n# --------------------------------------------------\n# Configuration\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\nSIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------\n# Lazy-loaded objects\n# --------------------------------------------------",
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "CHUNKS_CACHE_PATH",
-        "kind": 5,
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "peekOfCode": "CHUNKS_CACHE_PATH = (DATA_DIR / \"chunks_cache.json\")\n# --------------------------------------------------\n# Configuration\n# --------------------------------------------------\nMODEL_NAME = \"all-MiniLM-L6-v2\"\nSIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------\n# Lazy-loaded objects\n# --------------------------------------------------\n_embedder = None",
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "MODEL_NAME",
-        "kind": 5,
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "peekOfCode": "MODEL_NAME = \"all-MiniLM-L6-v2\"\nSIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------\n# Lazy-loaded objects\n# --------------------------------------------------\n_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks",
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "SIMILARITY_GATE_THRESHOLD",
-        "kind": 5,
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "peekOfCode": "SIMILARITY_GATE_THRESHOLD = 0.25\n# --------------------------------------------------\n# Lazy-loaded objects\n# --------------------------------------------------\n_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:",
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "_embedder",
-        "kind": 5,
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "peekOfCode": "_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        print(f\"Loading embedding model: {MODEL_NAME}\")\n        _embedder = SentenceTransformer(MODEL_NAME)\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists():",
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "_resume_embeddings",
-        "kind": 5,
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "peekOfCode": "_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        print(f\"Loading embedding model: {MODEL_NAME}\")\n        _embedder = SentenceTransformer(MODEL_NAME)\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists():\n            raise RuntimeError(",
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "_resume_chunks",
-        "kind": 5,
-        "importPath": "rag.retriever",
-        "description": "rag.retriever",
-        "peekOfCode": "_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        print(f\"Loading embedding model: {MODEL_NAME}\")\n        _embedder = SentenceTransformer(MODEL_NAME)\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists():\n            raise RuntimeError(\n                \"Embedding cache missing. \"",
-        "detail": "rag.retriever",
-        "documentation": {}
-    },
-    {
-        "label": "TailoredResume",
-        "kind": 6,
-        "importPath": "scrapper.llm.job_matcher",
-        "description": "scrapper.llm.job_matcher",
-        "peekOfCode": "class TailoredResume(BaseModel):\n    company_name: str\n    company_location: str\n    match_score: int\n    match_reasoning: str\n    tailored_bullet_1: str\n    tailored_bullet_2: str\n    tailored_bullet_3: str\n# --------------------------------------------------\n# Groq client",
-        "detail": "scrapper.llm.job_matcher",
-        "documentation": {}
-    },
-    {
-        "label": "generate_tailored_content",
-        "kind": 2,
-        "importPath": "scrapper.llm.job_matcher",
-        "description": "scrapper.llm.job_matcher",
-        "peekOfCode": "def generate_tailored_content(job_description: str, max_retries: int = MAX_RETRIES) -> dict:\n    \"\"\"\n    Retrieve relevant candidate experience and use Groq to evaluate the job and\n    generate tailored content.\n    \"\"\"\n    # ----------------------------------------------\n    # 1. Retrieve relevant resume experience\n    # ----------------------------------------------\n    (relevant_experience, similarity_score) = get_relevant_chunks(job_description)\n    # ----------------------------------------------",
-        "detail": "scrapper.llm.job_matcher",
+        "importPath": "llm.matcher",
+        "description": "llm.matcher",
+        "peekOfCode": "def analyze_job_match(\n    job_description: str,\n    candidate_context: str,\n    candidate_profile: CandidateProfile,\n    max_retries: int = MAX_RETRIES,\n) -> dict:\n    \"\"\"\n    Analyze how well the candidate matches a job description.\n    1. Sends the job description, complete source of truth and retrieved evidence to the LLM.\n    2. Validates the structured LLM response with Pydantic.",
+        "detail": "llm.matcher",
         "documentation": {}
     },
     {
         "label": "GROQ_MODEL",
         "kind": 5,
-        "importPath": "scrapper.llm.job_matcher",
-        "description": "scrapper.llm.job_matcher",
-        "peekOfCode": "GROQ_MODEL = \"llama-3.3-70b-versatile\"\nMAX_RETRIES = 3\n# --------------------------------------------------\n# Output schema\n# --------------------------------------------------\nclass TailoredResume(BaseModel):\n    company_name: str\n    company_location: str\n    match_score: int\n    match_reasoning: str",
-        "detail": "scrapper.llm.job_matcher",
+        "importPath": "llm.matcher",
+        "description": "llm.matcher",
+        "peekOfCode": "GROQ_MODEL = \"openai/gpt-oss-120b\"\nMAX_RETRIES = 3\nRETRIEVAL_TOP_K = 8\n# ============================================================\n# Groq Client Initialization\n# ============================================================\nload_dotenv()\ngroq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# ============================================================\n# Main Function",
+        "detail": "llm.matcher",
         "documentation": {}
     },
     {
         "label": "MAX_RETRIES",
         "kind": 5,
-        "importPath": "scrapper.llm.job_matcher",
-        "description": "scrapper.llm.job_matcher",
-        "peekOfCode": "MAX_RETRIES = 3\n# --------------------------------------------------\n# Output schema\n# --------------------------------------------------\nclass TailoredResume(BaseModel):\n    company_name: str\n    company_location: str\n    match_score: int\n    match_reasoning: str\n    tailored_bullet_1: str",
-        "detail": "scrapper.llm.job_matcher",
+        "importPath": "llm.matcher",
+        "description": "llm.matcher",
+        "peekOfCode": "MAX_RETRIES = 3\nRETRIEVAL_TOP_K = 8\n# ============================================================\n# Groq Client Initialization\n# ============================================================\nload_dotenv()\ngroq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# ============================================================\n# Main Function\n# ============================================================",
+        "detail": "llm.matcher",
+        "documentation": {}
+    },
+    {
+        "label": "RETRIEVAL_TOP_K",
+        "kind": 5,
+        "importPath": "llm.matcher",
+        "description": "llm.matcher",
+        "peekOfCode": "RETRIEVAL_TOP_K = 8\n# ============================================================\n# Groq Client Initialization\n# ============================================================\nload_dotenv()\ngroq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# ============================================================\n# Main Function\n# ============================================================\ndef analyze_job_match(",
+        "detail": "llm.matcher",
         "documentation": {}
     },
     {
         "label": "groq_client",
         "kind": 5,
-        "importPath": "scrapper.llm.job_matcher",
-        "description": "scrapper.llm.job_matcher",
-        "peekOfCode": "groq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# --------------------------------------------------\n# Main function\n# --------------------------------------------------\ndef generate_tailored_content(job_description: str, max_retries: int = MAX_RETRIES) -> dict:\n    \"\"\"\n    Retrieve relevant candidate experience and use Groq to evaluate the job and\n    generate tailored content.\n    \"\"\"\n    # ----------------------------------------------",
-        "detail": "scrapper.llm.job_matcher",
+        "importPath": "llm.matcher",
+        "description": "llm.matcher",
+        "peekOfCode": "groq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# ============================================================\n# Main Function\n# ============================================================\ndef analyze_job_match(\n    job_description: str,\n    candidate_context: str,\n    candidate_profile: CandidateProfile,\n    max_retries: int = MAX_RETRIES,\n) -> dict:",
+        "detail": "llm.matcher",
         "documentation": {}
     },
     {
-        "label": "TailoredResume",
+        "label": "load_candidate_profile",
+        "kind": 2,
+        "importPath": "rag.candidate_profile",
+        "description": "rag.candidate_profile",
+        "peekOfCode": "def load_candidate_profile() -> CandidateProfile:\n    with open(\n        CANDIDATE_PROFILE_PATH,\n        \"r\",\n        encoding=\"utf-8\"\n    ) as file:\n        data = json.load(file)\n    return CandidateProfile.model_validate(data)",
+        "detail": "rag.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "rag.candidate_profile",
+        "description": "rag.candidate_profile",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nCANDIDATE_PROFILE_PATH = (\n    PROJECT_ROOT\n    / \"data\"\n    / \"candidate_profile.json\"\n)\ndef load_candidate_profile() -> CandidateProfile:\n    with open(\n        CANDIDATE_PROFILE_PATH,\n        \"r\",",
+        "detail": "rag.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "CANDIDATE_PROFILE_PATH",
+        "kind": 5,
+        "importPath": "rag.candidate_profile",
+        "description": "rag.candidate_profile",
+        "peekOfCode": "CANDIDATE_PROFILE_PATH = (\n    PROJECT_ROOT\n    / \"data\"\n    / \"candidate_profile.json\"\n)\ndef load_candidate_profile() -> CandidateProfile:\n    with open(\n        CANDIDATE_PROFILE_PATH,\n        \"r\",\n        encoding=\"utf-8\"",
+        "detail": "rag.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "get_chroma_client",
+        "kind": 2,
+        "importPath": "rag.chroma",
+        "description": "rag.chroma",
+        "peekOfCode": "def get_chroma_client():\n    CHROMA_PATH.mkdir(\n        parents=True,\n        exist_ok=True,\n    )\n    return chromadb.PersistentClient(path=str(CHROMA_PATH))\n# ============================================================\n# Candidate Collection\n# ============================================================\ndef get_candidate_collection():",
+        "detail": "rag.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "get_candidate_collection",
+        "kind": 2,
+        "importPath": "rag.chroma",
+        "description": "rag.chroma",
+        "peekOfCode": "def get_candidate_collection():\n    client = get_chroma_client()\n    embedding_function = SentenceTransformerEmbeddingFunction(\n        model_name=EMBEDDING_MODEL,\n        device=\"cpu\",\n        normalize_embeddings=True,\n    )\n    return client.get_or_create_collection(\n        name=COLLECTION_NAME,\n        embedding_function=embedding_function,",
+        "detail": "rag.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "rag.chroma",
+        "description": "rag.chroma",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nCHROMA_PATH = PROJECT_ROOT / \"data\" / \"chroma\"\n# ============================================================\n# Configuration\n# ============================================================\nCOLLECTION_NAME = \"candidate_profile\"\nEMBEDDING_MODEL = \"all-MiniLM-L6-v2\"\n# ============================================================\n# Client\n# ============================================================",
+        "detail": "rag.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "CHROMA_PATH",
+        "kind": 5,
+        "importPath": "rag.chroma",
+        "description": "rag.chroma",
+        "peekOfCode": "CHROMA_PATH = PROJECT_ROOT / \"data\" / \"chroma\"\n# ============================================================\n# Configuration\n# ============================================================\nCOLLECTION_NAME = \"candidate_profile\"\nEMBEDDING_MODEL = \"all-MiniLM-L6-v2\"\n# ============================================================\n# Client\n# ============================================================\ndef get_chroma_client():",
+        "detail": "rag.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "COLLECTION_NAME",
+        "kind": 5,
+        "importPath": "rag.chroma",
+        "description": "rag.chroma",
+        "peekOfCode": "COLLECTION_NAME = \"candidate_profile\"\nEMBEDDING_MODEL = \"all-MiniLM-L6-v2\"\n# ============================================================\n# Client\n# ============================================================\ndef get_chroma_client():\n    CHROMA_PATH.mkdir(\n        parents=True,\n        exist_ok=True,\n    )",
+        "detail": "rag.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "EMBEDDING_MODEL",
+        "kind": 5,
+        "importPath": "rag.chroma",
+        "description": "rag.chroma",
+        "peekOfCode": "EMBEDDING_MODEL = \"all-MiniLM-L6-v2\"\n# ============================================================\n# Client\n# ============================================================\ndef get_chroma_client():\n    CHROMA_PATH.mkdir(\n        parents=True,\n        exist_ok=True,\n    )\n    return chromadb.PersistentClient(path=str(CHROMA_PATH))",
+        "detail": "rag.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "build_documents",
+        "kind": 2,
+        "importPath": "rag.ingest",
+        "description": "rag.ingest",
+        "peekOfCode": "def build_documents(profile):\n    documents = []\n    # ========================================================\n    # WORK EXPERIENCE\n    # ========================================================\n    for index, experience in enumerate(profile.work):\n        period = f\"{experience.startDate} - \" f\"{experience.endDate or 'Heute'}\"\n        full_experience = \"\\n\".join(\n            [\n                f\"Company: {experience.company}\",",
+        "detail": "rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "ingest_candidate_profile",
+        "kind": 2,
+        "importPath": "rag.ingest",
+        "description": "rag.ingest",
+        "peekOfCode": "def ingest_candidate_profile():\n    profile = load_candidate_profile()\n    collection = get_candidate_collection()\n    documents = build_documents(profile)\n    if not documents:\n        raise RuntimeError(\"No candidate documents were generated.\")\n    collection.upsert(\n        ids=[item[\"id\"] for item in documents],\n        documents=[item[\"document\"] for item in documents],\n        metadatas=[item[\"metadata\"] for item in documents],",
+        "detail": "rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_candidate_documents",
+        "kind": 2,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "def retrieve_candidate_documents(\n    job_description: str,\n    top_k: int = DEFAULT_TOP_K,\n):\n    \"\"\"\n    Retrieve candidate evidence relevant to a job description.\n    Returns Chroma results containing:\n        - documents\n        - metadatas\n        - distances",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "get_relevant_candidate_context",
+        "kind": 2,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "def get_relevant_candidate_context(\n    job_description: str,\n    top_k: int = DEFAULT_TOP_K,\n) -> str:\n    results = retrieve_candidate_documents(\n        job_description,\n        top_k=top_k,\n    )\n    documents = results.get(\"documents\", [[]])[0]\n    if not documents:",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_TOP_K",
+        "kind": 5,
+        "importPath": "rag.retriever",
+        "description": "rag.retriever",
+        "peekOfCode": "DEFAULT_TOP_K = 8\n# ============================================================\n# Candidate Retrieval\n# ============================================================\ndef retrieve_candidate_documents(\n    job_description: str,\n    top_k: int = DEFAULT_TOP_K,\n):\n    \"\"\"\n    Retrieve candidate evidence relevant to a job description.",
+        "detail": "rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "Location",
         "kind": 6,
-        "importPath": "scrapper.llm",
-        "description": "scrapper.llm",
-        "peekOfCode": "class TailoredResume(BaseModel):\n    company_name: str\n    company_location: str\n    match_score: int  # 0-100, Groq's holistic judgment (not the cosine similarity number)\n    match_reasoning: str\n    tailored_bullet_1: str\n    tailored_bullet_2: str\n    tailored_bullet_3: str\n    @property\n    def is_worth_reviewing(self) -> bool:",
-        "detail": "scrapper.llm",
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class Location(BaseModel):\n    address: Optional[str] = None\n    city: Optional[str] = None\n    countryCode: Optional[str] = None\nclass ProfileLink(BaseModel):\n    network: str\n    url: str\nclass Basics(BaseModel):\n    name: str\n    image: Optional[str] = None",
+        "detail": "schemas.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "get_relevant_chunks",
-        "kind": 2,
-        "importPath": "scrapper.llm",
-        "description": "scrapper.llm",
-        "peekOfCode": "def get_relevant_chunks(job_description: str, top_k: int = 4) -> tuple[str, float]:\n    \"\"\"\n    Computes cosine similarity in-memory and returns:\n    - the formatted text of the most relevant resume chunks\n    - the MAX similarity score among them (cheap relevance signal, used as a pre-filter gate —\n      NOT the same as Groq's match_score, which is a full judgment, not a distance metric)\n    \"\"\"\n    _ensure_loaded()\n    jd_embedding = _embedder.encode(job_description)\n    similarities = np.dot(_resume_embeddings, jd_embedding) / (",
-        "detail": "scrapper.llm",
+        "label": "ProfileLink",
+        "kind": 6,
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class ProfileLink(BaseModel):\n    network: str\n    url: str\nclass Basics(BaseModel):\n    name: str\n    image: Optional[str] = None\n    email: Optional[str] = None\n    phone: Optional[str] = None\n    website: Optional[str] = None\n    location: Optional[Location] = None",
+        "detail": "schemas.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "generate_tailored_content",
-        "kind": 2,
-        "importPath": "scrapper.llm",
-        "description": "scrapper.llm",
-        "peekOfCode": "def generate_tailored_content(job_description: str, max_retries: int = 3) -> dict:\n    \"\"\"\n    Passes retrieved chunks and JD to Groq, forces JSON, and validates via Pydantic.\n    Returns one of:\n      {\"success\": True, \"data\": {...}}\n      {\"success\": False, \"reason\": \"LOW_SIMILARITY\", \"similarity_score\": float}   # skipped, no API call spent\n      {\"success\": False, \"reason\": \"VALIDATION_FAILED\", \"error\": \"...\"}\n    No silent placeholder fallback: bad or low-relevance output should never look like a real result.\n    \"\"\"\n    relevant_experience, similarity_score = get_relevant_chunks(job_description)",
-        "detail": "scrapper.llm",
+        "label": "Basics",
+        "kind": 6,
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class Basics(BaseModel):\n    name: str\n    image: Optional[str] = None\n    email: Optional[str] = None\n    phone: Optional[str] = None\n    website: Optional[str] = None\n    location: Optional[Location] = None\n    profiles: list[ProfileLink] = Field(default_factory=list)\n# ============================================================\n# EDUCATION",
+        "detail": "schemas.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "SIMILARITY_GATE_THRESHOLD",
-        "kind": 5,
-        "importPath": "scrapper.llm",
-        "description": "scrapper.llm",
-        "peekOfCode": "SIMILARITY_GATE_THRESHOLD = 0.25\ngroq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# Lazy-loaded globals — populated on first call, not at import time,\n# so importing this module doesn't crash if the cache doesn't exist yet.\n_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:",
-        "detail": "scrapper.llm",
+        "label": "Education",
+        "kind": 6,
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class Education(BaseModel):\n    institution: str\n    location: Optional[str] = None\n    area: str\n    studyType: str\n    score: Optional[str] = None\n    startDate: str\n    endDate: Optional[str] = None\n# ============================================================\n# WORK EXPERIENCE",
+        "detail": "schemas.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "groq_client",
-        "kind": 5,
-        "importPath": "scrapper.llm",
-        "description": "scrapper.llm",
-        "peekOfCode": "groq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# Lazy-loaded globals — populated on first call, not at import time,\n# so importing this module doesn't crash if the cache doesn't exist yet.\n_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        _embedder = SentenceTransformer('all-MiniLM-L6-v2')",
-        "detail": "scrapper.llm",
+        "label": "WorkExperience",
+        "kind": 6,
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class WorkExperience(BaseModel):\n    company: str\n    position: str\n    location: Optional[str] = None\n    startDate: str\n    endDate: Optional[str] = None\n    technologies: list[str] = Field(default_factory=list)\n    highlights: list[str] = Field(default_factory=list)\n# ============================================================\n# PROJECTS",
+        "detail": "schemas.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "_embedder",
-        "kind": 5,
-        "importPath": "scrapper.llm",
-        "description": "scrapper.llm",
-        "peekOfCode": "_embedder = None\n_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        _embedder = SentenceTransformer('all-MiniLM-L6-v2')\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists() or not CHUNKS_CACHE_PATH.exists():\n            raise RuntimeError(",
-        "detail": "scrapper.llm",
+        "label": "Project",
+        "kind": 6,
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class Project(BaseModel):\n    name: str\n    context: Optional[str] = None\n    startDate: str\n    endDate: Optional[str] = None\n    technologies: list[str] = Field(default_factory=list)\n    highlights: list[str] = Field(default_factory=list)\n# ============================================================\n# CONFERENCES\n# ============================================================",
+        "detail": "schemas.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "_resume_embeddings",
-        "kind": 5,
-        "importPath": "scrapper.llm",
-        "description": "scrapper.llm",
-        "peekOfCode": "_resume_embeddings = None\n_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        _embedder = SentenceTransformer('all-MiniLM-L6-v2')\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists() or not CHUNKS_CACHE_PATH.exists():\n            raise RuntimeError(\n                \"Embedding cache missing. Run 'python -m scraper.embeddings_fixed' first.\"",
-        "detail": "scrapper.llm",
+        "label": "Conference",
+        "kind": 6,
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class Conference(BaseModel):\n    title: str\n    url: Optional[str] = None\n    startDate: str\n    endDate: Optional[str] = None\n    highlights: list[str] = Field(default_factory=list)\n# ============================================================\n# ACHIEVEMENTS\n# ============================================================\nclass Achievement(BaseModel):",
+        "detail": "schemas.candidate_profile",
         "documentation": {}
     },
     {
-        "label": "_resume_chunks",
-        "kind": 5,
-        "importPath": "scrapper.llm",
-        "description": "scrapper.llm",
-        "peekOfCode": "_resume_chunks = None\ndef _ensure_loaded():\n    global _embedder, _resume_embeddings, _resume_chunks\n    if _embedder is None:\n        _embedder = SentenceTransformer('all-MiniLM-L6-v2')\n    if _resume_embeddings is None or _resume_chunks is None:\n        if not EMBEDDINGS_CACHE_PATH.exists() or not CHUNKS_CACHE_PATH.exists():\n            raise RuntimeError(\n                \"Embedding cache missing. Run 'python -m scraper.embeddings_fixed' first.\"\n            )",
-        "detail": "scrapper.llm",
+        "label": "Achievement",
+        "kind": 6,
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class Achievement(BaseModel):\n    title: str\n    description: str\n# ============================================================\n# SKILLS\n# ============================================================\nclass Skills(BaseModel):\n    programming_languages: list[str] = Field(\n        default_factory=list, alias=\"Programmiersprachen\"\n    )",
+        "detail": "schemas.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "Skills",
+        "kind": 6,
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class Skills(BaseModel):\n    programming_languages: list[str] = Field(\n        default_factory=list, alias=\"Programmiersprachen\"\n    )\n    frameworks_libraries: list[str] = Field(\n        default_factory=list, alias=\"Frameworks & Bibliotheken\"\n    )\n    tools_devops: list[str] = Field(\n        default_factory=list, alias=\"Entwicklungswerkzeuge & DevOps\"\n    )",
+        "detail": "schemas.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "Language",
+        "kind": 6,
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class Language(BaseModel):\n    language: str\n    fluency: str\n# ============================================================\n# COMPLETE CANDIDATE PROFILE\n# ============================================================\nclass CandidateProfile(BaseModel):\n    basics: Basics\n    education: list[Education] = Field(default_factory=list)\n    work: list[WorkExperience] = Field(default_factory=list)",
+        "detail": "schemas.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "CandidateProfile",
+        "kind": 6,
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "peekOfCode": "class CandidateProfile(BaseModel):\n    basics: Basics\n    education: list[Education] = Field(default_factory=list)\n    work: list[WorkExperience] = Field(default_factory=list)\n    projects: list[Project] = Field(default_factory=list)\n    conferences: list[Conference] = Field(default_factory=list)\n    achievements: list[Achievement] = Field(default_factory=list)\n    skills: Optional[Skills] = None\n    languages: list[Language] = Field(default_factory=list)",
+        "detail": "schemas.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "JobMatch",
+        "kind": 6,
+        "importPath": "schemas.job_match",
+        "description": "schemas.job_match",
+        "peekOfCode": "class JobMatch(BaseModel):\n    match_score: int = Field(\n        ge=0,\n        le=100,\n    )\n    match_reasoning: str\n    relevant_experience: list[str] = Field(\n        default_factory=list,\n    )\n    relevant_projects: list[str] = Field(",
+        "detail": "schemas.job_match",
         "documentation": {}
     },
     {
@@ -889,6 +1160,159 @@
         "description": "scrapper.xing",
         "peekOfCode": "SUPABASE_KEY = os.getenv(\"SUPABASE_SERVICE_KEY\")\nif not SUPABASE_URL or not SUPABASE_KEY:\n    raise ValueError(\"Missing Supabase credentials. Check your root .env file.\")\n# Initialize Supabase Client\nsupabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)\nasync def handle_cookie_consent(page):\n    \"\"\"\n    Dismisses XING cookie banners if they pop up.\n    \"\"\"\n    try:",
         "detail": "scrapper.xing",
+        "documentation": {}
+    },
+    {
+        "label": "test_candidate_profile_loads",
+        "kind": 2,
+        "importPath": "tests.test_candidate_profile",
+        "description": "tests.test_candidate_profile",
+        "peekOfCode": "def test_candidate_profile_loads():\n    profile = load_candidate_profile()\n    assert profile.basics.name == \"Jainish Parekh\"\n    assert len(profile.education) > 0\n    assert len(profile.work) > 0\n    assert len(profile.projects) > 0\n    assert len(profile.conferences) > 0\n    assert profile.skills is not None\n    assert len(profile.languages) > 0",
+        "detail": "tests.test_candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "test_build_candidate_documents",
+        "kind": 2,
+        "importPath": "tests.test_ingest",
+        "description": "tests.test_ingest",
+        "peekOfCode": "def test_build_candidate_documents():\n    profile = load_candidate_profile()\n    documents = build_documents(profile)\n    assert documents\n    assert len(documents) > 0\ndef test_documents_have_required_fields():\n    profile = load_candidate_profile()\n    documents = build_documents(profile)\n    for document in documents:\n        assert \"id\" in document",
+        "detail": "tests.test_ingest",
+        "documentation": {}
+    },
+    {
+        "label": "test_documents_have_required_fields",
+        "kind": 2,
+        "importPath": "tests.test_ingest",
+        "description": "tests.test_ingest",
+        "peekOfCode": "def test_documents_have_required_fields():\n    profile = load_candidate_profile()\n    documents = build_documents(profile)\n    for document in documents:\n        assert \"id\" in document\n        assert \"document\" in document\n        assert \"metadata\" in document\n        assert document[\"id\"]\n        assert document[\"document\"]\n        assert isinstance(document[\"metadata\"], dict)",
+        "detail": "tests.test_ingest",
+        "documentation": {}
+    },
+    {
+        "label": "test_expected_document_types_exist",
+        "kind": 2,
+        "importPath": "tests.test_ingest",
+        "description": "tests.test_ingest",
+        "peekOfCode": "def test_expected_document_types_exist():\n    profile = load_candidate_profile()\n    documents = build_documents(profile)\n    types = {document[\"metadata\"][\"type\"] for document in documents}\n    assert \"work\" in types\n    assert \"work_highlight\" in types\n    assert \"project\" in types\n    assert \"project_highlight\" in types\n    assert \"conference\" in types\n    assert \"achievement\" in types",
+        "detail": "tests.test_ingest",
+        "documentation": {}
+    },
+    {
+        "label": "test_analyze_job_match",
+        "kind": 2,
+        "importPath": "tests.test_matcher",
+        "description": "tests.test_matcher",
+        "peekOfCode": "def test_analyze_job_match():\n    job_description = \"\"\"\n    Working student position in AI and software engineering.\n    Requirements:\n    Python\n    FastAPI\n    React\n    Machine Learning\n    \"\"\"\n    result = analyze_job_match(job_description)",
+        "detail": "tests.test_matcher",
+        "documentation": {}
+    },
+    {
+        "label": "test_retrieve_candidate_documents",
+        "kind": 2,
+        "importPath": "tests.test_retriever",
+        "description": "tests.test_retriever",
+        "peekOfCode": "def test_retrieve_candidate_documents():\n    job_description = \"\"\"\n    Working student position in AI and software engineering.\n    Requirements:\n    Python\n    FastAPI\n    React\n    machine learning\n    \"\"\"\n    results = retrieve_candidate_documents(",
+        "detail": "tests.test_retriever",
+        "documentation": {}
+    },
+    {
+        "label": "test_retrieved_documents_have_metadata",
+        "kind": 2,
+        "importPath": "tests.test_retriever",
+        "description": "tests.test_retriever",
+        "peekOfCode": "def test_retrieved_documents_have_metadata():\n    job_description = \"\"\"\n    Software engineering working student.\n    React, TypeScript, Node.js and backend development.\n    \"\"\"\n    results = retrieve_candidate_documents(\n        job_description,\n        top_k=5,\n    )\n    documents = results[\"documents\"][0]",
+        "detail": "tests.test_retriever",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_relevant_candidate_context",
+        "kind": 2,
+        "importPath": "tests.test_retriever",
+        "description": "tests.test_retriever",
+        "peekOfCode": "def test_get_relevant_candidate_context():\n    job_description = \"\"\"\n    Python machine learning AI working student.\n    \"\"\"\n    context = get_relevant_candidate_context(\n        job_description,\n        top_k=5,\n    )\n    assert isinstance(context, str)\n    assert len(context) > 0",
+        "detail": "tests.test_retriever",
+        "documentation": {}
+    },
+    {
+        "label": "test_job_analysis_workflow",
+        "kind": 2,
+        "importPath": "tests.test_workflow",
+        "description": "tests.test_workflow",
+        "peekOfCode": "def test_job_analysis_workflow():\n    graph = build_job_graph()\n    state = JobState(\n        company_name=\"Test Company\",\n        company_location=\"Berlin\",\n        job_title=\"Working Student Machine Learning\",\n        job_description=\"\"\"\n        We are looking for a working student\n        with Python, FastAPI, machine learning\n        and React experience.",
+        "detail": "tests.test_workflow",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_job_node",
+        "kind": 2,
+        "importPath": "workflow.nodes.analyze_job",
+        "description": "workflow.nodes.analyze_job",
+        "peekOfCode": "def analyze_job_node(state: JobState) -> JobState:\n    if not state.job_description.strip():\n        state.errors.append(\"Job description is empty.\")\n        return state\n    if not state.candidate_context.strip():\n        state.errors.append(\"Candidate context is empty.\")\n        return state\n    if not state.candidate_profile:\n        state.errors.append(\"Candidate profile is empty.\")\n        return state",
+        "detail": "workflow.nodes.analyze_job",
+        "documentation": {}
+    },
+    {
+        "label": "generate_cover_letter",
+        "kind": 2,
+        "importPath": "workflow.nodes.generate_cover_letter",
+        "description": "workflow.nodes.generate_cover_letter",
+        "peekOfCode": "def generate_cover_letter(state: JobState) -> JobState:\n    return state",
+        "detail": "workflow.nodes.generate_cover_letter",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_candidate_evidence",
+        "kind": 2,
+        "importPath": "workflow.nodes.retrieve_context",
+        "description": "workflow.nodes.retrieve_context",
+        "peekOfCode": "def retrieve_candidate_evidence(\n    state: JobState,\n) -> JobState:\n    candidate_context = get_relevant_candidate_context(state.job_description)\n    if not candidate_context:\n        state.errors = [\"NO_CANDIDATE_CONTEXT\"]\n        return state\n    state.candidate_profile = load_candidate_profile()\n    state.candidate_context = candidate_context\n    return state",
+        "detail": "workflow.nodes.retrieve_context",
+        "documentation": {}
+    },
+    {
+        "label": "generate_tailored_resume",
+        "kind": 2,
+        "importPath": "workflow.nodes.tailor_resume",
+        "description": "workflow.nodes.tailor_resume",
+        "peekOfCode": "def generate_tailored_resume(state: JobState) -> JobState:\n    return state",
+        "detail": "workflow.nodes.tailor_resume",
+        "documentation": {}
+    },
+    {
+        "label": "verify_and_filter_analyzed_job",
+        "kind": 2,
+        "importPath": "workflow.nodes.verify_output",
+        "description": "workflow.nodes.verify_output",
+        "peekOfCode": "def verify_and_filter_analyzed_job(state: JobState) -> Literal[Constants.SUCCESS, Constants.FAILURE]:\n    if not state.job_match:\n        return Constants.FAILURE\n    if state.job_match.match_score < 50:\n        return Constants.FAILURE\n    return Constants.SUCCESS",
+        "detail": "workflow.nodes.verify_output",
+        "documentation": {}
+    },
+    {
+        "label": "Constants",
+        "kind": 6,
+        "importPath": "workflow.constants",
+        "description": "workflow.constants",
+        "peekOfCode": "class Constants(Enum):\n    #----------------------------------------------\n    # Literals constants\n    #----------------------------------------------\n    SUCCESS = \"success\"\n    FAILURE = \"failure\"",
+        "detail": "workflow.constants",
+        "documentation": {}
+    },
+    {
+        "label": "build_job_graph",
+        "kind": 2,
+        "importPath": "workflow.graph",
+        "description": "workflow.graph",
+        "peekOfCode": "def build_job_graph():\n    builder = StateGraph(JobState)\n    # --------------------------------------------------------\n    # Nodes\n    # --------------------------------------------------------\n    builder.add_node(\"analyze_job\", analyze_job_node)\n    builder.add_node(\"retrieve_context\", retrieve_candidate_evidence)\n    builder.add_node(\"generate_cover_letter\", generate_cover_letter)\n    builder.add_node(\"generate_tailored_resume\", generate_tailored_resume)\n    # --------------------------------------------------------",
+        "detail": "workflow.graph",
+        "documentation": {}
+    },
+    {
+        "label": "JobState",
+        "kind": 6,
+        "importPath": "workflow.state",
+        "description": "workflow.state",
+        "peekOfCode": "class JobState(BaseModel):\n    # ========================================================\n    # Job input\n    # ========================================================\n    job_url: str = \"\"\n    company_name: str = \"\"\n    company_location: str = \"\"\n    job_title: str = \"\"\n    job_description: str = \"\"\n    # ========================================================",
+        "detail": "workflow.state",
         "documentation": {}
     }
 ]
