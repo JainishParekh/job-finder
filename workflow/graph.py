@@ -6,6 +6,7 @@ from workflow.nodes.retrieve_context import retrieve_candidate_evidence
 from workflow.nodes.tailor_resume import generate_tailored_resume
 from workflow.nodes.generate_cover_letter import generate_cover_letter
 from workflow.nodes.verify_output import verify_and_filter_analyzed_job
+from workflow.nodes.research_company import research_company
 
 
 def build_job_graph():
@@ -20,6 +21,7 @@ def build_job_graph():
     builder.add_node("retrieve_context", retrieve_candidate_evidence)
     builder.add_node("generate_cover_letter", generate_cover_letter)
     builder.add_node("generate_tailored_resume", generate_tailored_resume)
+    builder.add_node("research_company", research_company)
 
     # --------------------------------------------------------
     # Flow
@@ -30,9 +32,11 @@ def build_job_graph():
     builder.add_conditional_edges(
         "analyze_job",
         verify_and_filter_analyzed_job,
-        {Constants.SUCCESS: "generate_tailored_resume", Constants.FAILURE: END},
+        {Constants.SUCCESS: "research_company", Constants.FAILURE: END},
     )
-    builder.add_edge("generate_tailored_resume", "generate_cover_letter")
+    builder.add_edge("research_company", "generate_tailored_resume")
+    builder.add_edge("research_company", "generate_cover_letter")
+    builder.add_edge("generate_tailored_resume", END)
     builder.add_edge("generate_cover_letter", END)
 
     return builder.compile()

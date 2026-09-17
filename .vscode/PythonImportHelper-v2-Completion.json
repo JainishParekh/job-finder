@@ -300,6 +300,46 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "Field",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -599,11 +639,11 @@
         "documentation": {}
     },
     {
-        "label": "Constants",
-        "importPath": "workflow.constants",
-        "description": "workflow.constants",
+        "label": "JobState",
+        "importPath": "workflow.state",
+        "description": "workflow.state",
         "isExtraImport": true,
-        "detail": "workflow.constants",
+        "detail": "workflow.state",
         "documentation": {}
     },
     {
@@ -620,6 +660,22 @@
         "description": "workflow.constants",
         "isExtraImport": true,
         "detail": "workflow.constants",
+        "documentation": {}
+    },
+    {
+        "label": "Constants",
+        "importPath": "workflow.constants",
+        "description": "workflow.constants",
+        "isExtraImport": true,
+        "detail": "workflow.constants",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredResume",
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "isExtraImport": true,
+        "detail": "schemas.tailored_resume",
         "documentation": {}
     },
     {
@@ -692,6 +748,14 @@
         "description": "workflow.nodes.verify_output",
         "isExtraImport": true,
         "detail": "workflow.nodes.verify_output",
+        "documentation": {}
+    },
+    {
+        "label": "research_company",
+        "importPath": "workflow.nodes.research_company",
+        "description": "workflow.nodes.research_company",
+        "isExtraImport": true,
+        "detail": "workflow.nodes.research_company",
         "documentation": {}
     },
     {
@@ -1136,12 +1200,57 @@
         "documentation": {}
     },
     {
+        "label": "CompanyResearch",
+        "kind": 6,
+        "importPath": "schemas.company_research",
+        "description": "schemas.company_research",
+        "peekOfCode": "class CompanyResearch(BaseModel):\n    official_website: str | None = None\n    company_summary: str = \"\"\n    products_services: list[str] = Field(default_factory=list)\n    technology_topics: list[str] = Field(default_factory=list)\n    sources: list[str] = Field(default_factory=list)",
+        "detail": "schemas.company_research",
+        "documentation": {}
+    },
+    {
+        "label": "CoverLetter",
+        "kind": 6,
+        "importPath": "schemas.cover_letter",
+        "description": "schemas.cover_letter",
+        "peekOfCode": "class CoverLetter(BaseModel):\n    company_address: str\n    person_to_address: str\n    language: str\n    subject: str\n    greeting: str\n    body: str\n    closing: str",
+        "detail": "schemas.cover_letter",
+        "documentation": {}
+    },
+    {
         "label": "JobMatch",
         "kind": 6,
         "importPath": "schemas.job_match",
         "description": "schemas.job_match",
         "peekOfCode": "class JobMatch(BaseModel):\n    match_score: int = Field(\n        ge=0,\n        le=100,\n    )\n    match_reasoning: str\n    relevant_experience: list[str] = Field(\n        default_factory=list,\n    )\n    relevant_projects: list[str] = Field(",
         "detail": "schemas.job_match",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredExperience",
+        "kind": 6,
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "peekOfCode": "class TailoredExperience(BaseModel):\n    company: str\n    selected: bool\n    bullets: list[str] = Field(default_factory=list)\nclass TailoredProject(BaseModel):\n    name: str\n    selected: bool\n    bullets: list[str] = Field(default_factory=list)\nclass TailoredResume(BaseModel):\n    professional_summary: str = \"\"",
+        "detail": "schemas.tailored_resume",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredProject",
+        "kind": 6,
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "peekOfCode": "class TailoredProject(BaseModel):\n    name: str\n    selected: bool\n    bullets: list[str] = Field(default_factory=list)\nclass TailoredResume(BaseModel):\n    professional_summary: str = \"\"\n    experience: list[TailoredExperience] = Field(\n        default_factory=list\n    )\n    projects: list[TailoredProject] = Field(",
+        "detail": "schemas.tailored_resume",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredResume",
+        "kind": 6,
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "peekOfCode": "class TailoredResume(BaseModel):\n    professional_summary: str = \"\"\n    experience: list[TailoredExperience] = Field(\n        default_factory=list\n    )\n    projects: list[TailoredProject] = Field(\n        default_factory=list\n    )\n    conferences: list[str] = Field(\n        default_factory=list",
+        "detail": "schemas.tailored_resume",
         "documentation": {}
     },
     {
@@ -1262,6 +1371,15 @@
         "documentation": {}
     },
     {
+        "label": "research_company",
+        "kind": 2,
+        "importPath": "workflow.nodes.research_company",
+        "description": "workflow.nodes.research_company",
+        "peekOfCode": "def research_company(state: JobState):\n    return state",
+        "detail": "workflow.nodes.research_company",
+        "documentation": {}
+    },
+    {
         "label": "retrieve_candidate_evidence",
         "kind": 2,
         "importPath": "workflow.nodes.retrieve_context",
@@ -1275,7 +1393,7 @@
         "kind": 2,
         "importPath": "workflow.nodes.tailor_resume",
         "description": "workflow.nodes.tailor_resume",
-        "peekOfCode": "def generate_tailored_resume(state: JobState) -> JobState:\n    return state",
+        "peekOfCode": "def generate_tailored_resume(state: JobState) -> JobState:\n    if not state.candidate_profile:\n        state.errors.append(\"CANDIDATE_PROFILE_MISSING\")\n        return state\n    if not state.job_match:\n        state.errors.append(\"JOB_MATCH_MISSING\")\n        return state\n    # Build prompt here\n    # Call LLM\n    # Validate with TailoredResume",
         "detail": "workflow.nodes.tailor_resume",
         "documentation": {}
     },
@@ -1302,7 +1420,7 @@
         "kind": 2,
         "importPath": "workflow.graph",
         "description": "workflow.graph",
-        "peekOfCode": "def build_job_graph():\n    builder = StateGraph(JobState)\n    # --------------------------------------------------------\n    # Nodes\n    # --------------------------------------------------------\n    builder.add_node(\"analyze_job\", analyze_job_node)\n    builder.add_node(\"retrieve_context\", retrieve_candidate_evidence)\n    builder.add_node(\"generate_cover_letter\", generate_cover_letter)\n    builder.add_node(\"generate_tailored_resume\", generate_tailored_resume)\n    # --------------------------------------------------------",
+        "peekOfCode": "def build_job_graph():\n    builder = StateGraph(JobState)\n    # --------------------------------------------------------\n    # Nodes\n    # --------------------------------------------------------\n    builder.add_node(\"analyze_job\", analyze_job_node)\n    builder.add_node(\"retrieve_context\", retrieve_candidate_evidence)\n    builder.add_node(\"generate_cover_letter\", generate_cover_letter)\n    builder.add_node(\"generate_tailored_resume\", generate_tailored_resume)\n    builder.add_node(\"research_company\", research_company)",
         "detail": "workflow.graph",
         "documentation": {}
     },
