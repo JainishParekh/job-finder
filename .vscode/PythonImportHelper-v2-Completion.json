@@ -236,11 +236,140 @@
         "documentation": {}
     },
     {
+        "label": "get_llm_client",
+        "importPath": "llm.client",
+        "description": "llm.client",
+        "isExtraImport": true,
+        "detail": "llm.client",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_client",
+        "importPath": "llm.client",
+        "description": "llm.client",
+        "isExtraImport": true,
+        "detail": "llm.client",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_client",
+        "importPath": "llm.client",
+        "description": "llm.client",
+        "isExtraImport": true,
+        "detail": "llm.client",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_client",
+        "importPath": "llm.client",
+        "description": "llm.client",
+        "isExtraImport": true,
+        "detail": "llm.client",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_client",
+        "importPath": "llm.client",
+        "description": "llm.client",
+        "isExtraImport": true,
+        "detail": "llm.client",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Groq",
         "importPath": "groq",
         "description": "groq",
         "isExtraImport": true,
         "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -284,22 +413,6 @@
         "documentation": {}
     },
     {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -364,6 +477,78 @@
         "documentation": {}
     },
     {
+        "label": "JobMatch",
+        "importPath": "schemas.job_match",
+        "description": "schemas.job_match",
+        "isExtraImport": true,
+        "detail": "schemas.job_match",
+        "documentation": {}
+    },
+    {
+        "label": "JobMatch",
+        "importPath": "schemas.job_match",
+        "description": "schemas.job_match",
+        "isExtraImport": true,
+        "detail": "schemas.job_match",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "CandidateProfile",
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "isExtraImport": true,
+        "detail": "schemas.candidate_profile",
+        "documentation": {}
+    },
+    {
         "label": "CandidateProfile",
         "importPath": "schemas.candidate_profile",
         "description": "schemas.candidate_profile",
@@ -385,6 +570,62 @@
         "description": "schemas.candidate_profile",
         "isExtraImport": true,
         "detail": "schemas.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "CandidateProfile",
+        "importPath": "schemas.candidate_profile",
+        "description": "schemas.candidate_profile",
+        "isExtraImport": true,
+        "detail": "schemas.candidate_profile",
+        "documentation": {}
+    },
+    {
+        "label": "CoverLetter",
+        "importPath": "schemas.cover_letter",
+        "description": "schemas.cover_letter",
+        "isExtraImport": true,
+        "detail": "schemas.cover_letter",
+        "documentation": {}
+    },
+    {
+        "label": "CoverLetter",
+        "importPath": "schemas.cover_letter",
+        "description": "schemas.cover_letter",
+        "isExtraImport": true,
+        "detail": "schemas.cover_letter",
+        "documentation": {}
+    },
+    {
+        "label": "CoverLetter",
+        "importPath": "schemas.cover_letter",
+        "description": "schemas.cover_letter",
+        "isExtraImport": true,
+        "detail": "schemas.cover_letter",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredResume",
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "isExtraImport": true,
+        "detail": "schemas.tailored_resume",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredResume",
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "isExtraImport": true,
+        "detail": "schemas.tailored_resume",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredResume",
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "isExtraImport": true,
+        "detail": "schemas.tailored_resume",
         "documentation": {}
     },
     {
@@ -394,22 +635,6 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -475,38 +700,6 @@
         "description": "rag.chroma",
         "isExtraImport": true,
         "detail": "rag.chroma",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Literal",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Literal",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
         "documentation": {}
     },
     {
@@ -671,11 +864,51 @@
         "documentation": {}
     },
     {
-        "label": "TailoredResume",
-        "importPath": "schemas.tailored_resume",
-        "description": "schemas.tailored_resume",
+        "label": "generate_cover_letter",
+        "importPath": "llm.cover_letter_generator",
+        "description": "llm.cover_letter_generator",
         "isExtraImport": true,
-        "detail": "schemas.tailored_resume",
+        "detail": "llm.cover_letter_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_resume_pdf",
+        "importPath": "workflow.pdf_generator",
+        "description": "workflow.pdf_generator",
+        "isExtraImport": true,
+        "detail": "workflow.pdf_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_cover_letter_pdf",
+        "importPath": "workflow.pdf_generator",
+        "description": "workflow.pdf_generator",
+        "isExtraImport": true,
+        "detail": "workflow.pdf_generator",
+        "documentation": {}
+    },
+    {
+        "label": "save_pdf_locally",
+        "importPath": "workflow.pdf_generator",
+        "description": "workflow.pdf_generator",
+        "isExtraImport": true,
+        "detail": "workflow.pdf_generator",
+        "documentation": {}
+    },
+    {
+        "label": "research_company",
+        "importPath": "llm.company_research",
+        "description": "llm.company_research",
+        "isExtraImport": true,
+        "detail": "llm.company_research",
+        "documentation": {}
+    },
+    {
+        "label": "generate_resume",
+        "importPath": "llm.resume_generator",
+        "description": "llm.resume_generator",
+        "isExtraImport": true,
+        "detail": "llm.resume_generator",
         "documentation": {}
     },
     {
@@ -756,6 +989,55 @@
         "description": "workflow.nodes.research_company",
         "isExtraImport": true,
         "detail": "workflow.nodes.research_company",
+        "documentation": {}
+    },
+    {
+        "label": "generate_pdfs",
+        "importPath": "workflow.nodes.generate_pdf",
+        "description": "workflow.nodes.generate_pdf",
+        "isExtraImport": true,
+        "detail": "workflow.nodes.generate_pdf",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Environment",
+        "importPath": "jinja2",
+        "description": "jinja2",
+        "isExtraImport": true,
+        "detail": "jinja2",
+        "documentation": {}
+    },
+    {
+        "label": "FileSystemLoader",
+        "importPath": "jinja2",
+        "description": "jinja2",
+        "isExtraImport": true,
+        "detail": "jinja2",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
         "documentation": {}
     },
     {
@@ -930,48 +1212,138 @@
         "documentation": {}
     },
     {
+        "label": "research_company",
+        "kind": 2,
+        "importPath": "llm.tools.web_search",
+        "description": "llm.tools.web_search",
+        "peekOfCode": "def research_company(company_name: str, job_description: str, job_title: str) -> str:\n    \"\"\"\n    Returns plain-text company research (official site, summary, products, relevant tech)\n    for direct injection into resume/cover-letter prompts. No structured extraction —\n    if you later need individual fields (e.g. to store separately in Supabase), add a\n    second structured_completion call, but don't pay for it until you actually need it.\n    \"\"\"\n    search_prompt = f\"\"\"Research the company \"{company_name}\" for someone preparing a job\napplication for the role \"{job_title}\" there.\nFind:",
+        "detail": "llm.tools.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "llm.tools.web_search",
+        "description": "llm.tools.web_search",
+        "peekOfCode": "llm = get_llm_client()\ndef research_company(company_name: str, job_description: str, job_title: str) -> str:\n    \"\"\"\n    Returns plain-text company research (official site, summary, products, relevant tech)\n    for direct injection into resume/cover-letter prompts. No structured extraction —\n    if you later need individual fields (e.g. to store separately in Supabase), add a\n    second structured_completion call, but don't pay for it until you actually need it.\n    \"\"\"\n    search_prompt = f\"\"\"Research the company \"{company_name}\" for someone preparing a job\napplication for the role \"{job_title}\" there.",
+        "detail": "llm.tools.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "GroqLLMClient",
+        "kind": 6,
+        "importPath": "llm.client",
+        "description": "llm.client",
+        "peekOfCode": "class GroqLLMClient:\n    \"\"\"Single entry point for all LLM calls (job matching, resume, cover letter, research).\n    Instantiate once and reuse — e.g. `llm = GroqLLMClient()` at module level in each file,\n    or via `get_llm_client()` below for a shared singleton.\"\"\"\n    def __init__(self, model: str = \"openai/gpt-oss-120b\", max_retries: int = 3):\n        self.client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n        self.model = model\n        self.max_retries = max_retries\n    # ----------------------------------------------------------------\n    # Mode 1: plain structured generation (job match, resume, cover letter)",
+        "detail": "llm.client",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_client",
+        "kind": 2,
+        "importPath": "llm.client",
+        "description": "llm.client",
+        "peekOfCode": "def get_llm_client(model: str = os.getenv(\"GROQ_MODEL_NAME\")) -> GroqLLMClient:\n    global _client_instance\n    if _client_instance is None:\n        _client_instance = GroqLLMClient(model=model)\n    return _client_instance",
+        "detail": "llm.client",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "llm.client",
+        "description": "llm.client",
+        "peekOfCode": "T = TypeVar(\"T\", bound=BaseModel)\nclass GroqLLMClient:\n    \"\"\"Single entry point for all LLM calls (job matching, resume, cover letter, research).\n    Instantiate once and reuse — e.g. `llm = GroqLLMClient()` at module level in each file,\n    or via `get_llm_client()` below for a shared singleton.\"\"\"\n    def __init__(self, model: str = \"openai/gpt-oss-120b\", max_retries: int = 3):\n        self.client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n        self.model = model\n        self.max_retries = max_retries\n    # ----------------------------------------------------------------",
+        "detail": "llm.client",
+        "documentation": {}
+    },
+    {
+        "label": "research_company",
+        "kind": 2,
+        "importPath": "llm.company_research",
+        "description": "llm.company_research",
+        "peekOfCode": "def research_company(company_name: str, job_description: str, job_title: str) -> str:\n    \"\"\"\n    Research the company before applying so that more relevant, grounded context is\n    available for tailoring the resume and cover letter.\n    Uses Groq's built-in browser_search tool (gpt-oss model) to browse the web\n    server-side and returns the synthesized findings as plain text — no structured\n    extraction, since this is only ever injected as context into later prompts.\n    \"\"\"\n    search_prompt = f\"\"\"Research the company \"{company_name}\" for someone preparing a job\napplication for the role \"{job_title}\" there.",
+        "detail": "llm.company_research",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "llm.company_research",
+        "description": "llm.company_research",
+        "peekOfCode": "llm = get_llm_client()\ndef research_company(company_name: str, job_description: str, job_title: str) -> str:\n    \"\"\"\n    Research the company before applying so that more relevant, grounded context is\n    available for tailoring the resume and cover letter.\n    Uses Groq's built-in browser_search tool (gpt-oss model) to browse the web\n    server-side and returns the synthesized findings as plain text — no structured\n    extraction, since this is only ever injected as context into later prompts.\n    \"\"\"\n    search_prompt = f\"\"\"Research the company \"{company_name}\" for someone preparing a job",
+        "detail": "llm.company_research",
+        "documentation": {}
+    },
+    {
+        "label": "generate_cover_letter",
+        "kind": 2,
+        "importPath": "llm.cover_letter_generator",
+        "description": "llm.cover_letter_generator",
+        "peekOfCode": "def generate_cover_letter(\n    candidate_profile: CandidateProfile,\n    candidate_context: str,\n    job_match: JobMatch,\n    job_description: str,\n    company_research: str,\n    company_name: str,\n) -> CoverLetter:\n    rules = _load_rules()\n    system_prompt = f\"\"\"You are a career expert tailoring application materials for a candidate applying for jobs in Germany.",
+        "detail": "llm.cover_letter_generator",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "llm.cover_letter_generator",
+        "description": "llm.cover_letter_generator",
+        "peekOfCode": "llm = get_llm_client()\nRULES_MD_PATH = Path(__file__).parent.parent / \"data\" / \"rules.md\"\ndef _load_rules() -> str:\n    if not RULES_MD_PATH.exists():\n        raise FileNotFoundError(f\"Rules file not found: {RULES_MD_PATH}\")\n    return RULES_MD_PATH.read_text(encoding=\"utf-8\")\ndef generate_cover_letter(\n    candidate_profile: CandidateProfile,\n    candidate_context: str,\n    job_match: JobMatch,",
+        "detail": "llm.cover_letter_generator",
+        "documentation": {}
+    },
+    {
+        "label": "RULES_MD_PATH",
+        "kind": 5,
+        "importPath": "llm.cover_letter_generator",
+        "description": "llm.cover_letter_generator",
+        "peekOfCode": "RULES_MD_PATH = Path(__file__).parent.parent / \"data\" / \"rules.md\"\ndef _load_rules() -> str:\n    if not RULES_MD_PATH.exists():\n        raise FileNotFoundError(f\"Rules file not found: {RULES_MD_PATH}\")\n    return RULES_MD_PATH.read_text(encoding=\"utf-8\")\ndef generate_cover_letter(\n    candidate_profile: CandidateProfile,\n    candidate_context: str,\n    job_match: JobMatch,\n    job_description: str,",
+        "detail": "llm.cover_letter_generator",
+        "documentation": {}
+    },
+    {
         "label": "analyze_job_match",
         "kind": 2,
         "importPath": "llm.matcher",
         "description": "llm.matcher",
-        "peekOfCode": "def analyze_job_match(\n    job_description: str,\n    candidate_context: str,\n    candidate_profile: CandidateProfile,\n    max_retries: int = MAX_RETRIES,\n) -> dict:\n    \"\"\"\n    Analyze how well the candidate matches a job description.\n    1. Sends the job description, complete source of truth and retrieved evidence to the LLM.\n    2. Validates the structured LLM response with Pydantic.",
+        "peekOfCode": "def analyze_job_match(\n    job_description: str,\n    candidate_context: str,\n    candidate_profile: CandidateProfile,\n) -> dict:\n    system_prompt = f\"\"\"\nYou are an expert technical recruiter evaluating a candidate for a job in Germany.\nYour task is to analyze the candidate against the provided job description.\nYou must:\n- Evaluate the candidate's actual fit.",
         "detail": "llm.matcher",
         "documentation": {}
     },
     {
-        "label": "GROQ_MODEL",
+        "label": "llm",
         "kind": 5,
         "importPath": "llm.matcher",
         "description": "llm.matcher",
-        "peekOfCode": "GROQ_MODEL = \"openai/gpt-oss-120b\"\nMAX_RETRIES = 3\nRETRIEVAL_TOP_K = 8\n# ============================================================\n# Groq Client Initialization\n# ============================================================\nload_dotenv()\ngroq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# ============================================================\n# Main Function",
+        "peekOfCode": "llm = get_llm_client()\ndef analyze_job_match(\n    job_description: str,\n    candidate_context: str,\n    candidate_profile: CandidateProfile,\n) -> dict:\n    system_prompt = f\"\"\"\nYou are an expert technical recruiter evaluating a candidate for a job in Germany.\nYour task is to analyze the candidate against the provided job description.\nYou must:",
         "detail": "llm.matcher",
         "documentation": {}
     },
     {
-        "label": "MAX_RETRIES",
-        "kind": 5,
-        "importPath": "llm.matcher",
-        "description": "llm.matcher",
-        "peekOfCode": "MAX_RETRIES = 3\nRETRIEVAL_TOP_K = 8\n# ============================================================\n# Groq Client Initialization\n# ============================================================\nload_dotenv()\ngroq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# ============================================================\n# Main Function\n# ============================================================",
-        "detail": "llm.matcher",
+        "label": "generate_resume",
+        "kind": 2,
+        "importPath": "llm.resume_generator",
+        "description": "llm.resume_generator",
+        "peekOfCode": "def generate_resume(\n    candidate_profile: CandidateProfile,\n    candidate_context: str,\n    job_match: JobMatch,\n    job_description: str,\n    company_research: str,\n) -> TailoredResume:\n    rules = _load_rules()\n    system_prompt = f\"\"\"You are a career expert tailoring resumes for candidates applying to jobs in Germany.\nRules:",
+        "detail": "llm.resume_generator",
         "documentation": {}
     },
     {
-        "label": "RETRIEVAL_TOP_K",
+        "label": "llm",
         "kind": 5,
-        "importPath": "llm.matcher",
-        "description": "llm.matcher",
-        "peekOfCode": "RETRIEVAL_TOP_K = 8\n# ============================================================\n# Groq Client Initialization\n# ============================================================\nload_dotenv()\ngroq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# ============================================================\n# Main Function\n# ============================================================\ndef analyze_job_match(",
-        "detail": "llm.matcher",
+        "importPath": "llm.resume_generator",
+        "description": "llm.resume_generator",
+        "peekOfCode": "llm = get_llm_client()\nRULES_MD_PATH = Path(__file__).parent.parent / \"data\" / \"rules.md\"\ndef _load_rules() -> str:\n    if not RULES_MD_PATH.exists():\n        raise FileNotFoundError(f\"Rules file not found: {RULES_MD_PATH}\")\n    return RULES_MD_PATH.read_text(encoding=\"utf-8\")\ndef generate_resume(\n    candidate_profile: CandidateProfile,\n    candidate_context: str,\n    job_match: JobMatch,",
+        "detail": "llm.resume_generator",
         "documentation": {}
     },
     {
-        "label": "groq_client",
+        "label": "RULES_MD_PATH",
         "kind": 5,
-        "importPath": "llm.matcher",
-        "description": "llm.matcher",
-        "peekOfCode": "groq_client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n# ============================================================\n# Main Function\n# ============================================================\ndef analyze_job_match(\n    job_description: str,\n    candidate_context: str,\n    candidate_profile: CandidateProfile,\n    max_retries: int = MAX_RETRIES,\n) -> dict:",
-        "detail": "llm.matcher",
+        "importPath": "llm.resume_generator",
+        "description": "llm.resume_generator",
+        "peekOfCode": "RULES_MD_PATH = Path(__file__).parent.parent / \"data\" / \"rules.md\"\ndef _load_rules() -> str:\n    if not RULES_MD_PATH.exists():\n        raise FileNotFoundError(f\"Rules file not found: {RULES_MD_PATH}\")\n    return RULES_MD_PATH.read_text(encoding=\"utf-8\")\ndef generate_resume(\n    candidate_profile: CandidateProfile,\n    candidate_context: str,\n    job_match: JobMatch,\n    job_description: str,",
+        "detail": "llm.resume_generator",
         "documentation": {}
     },
     {
@@ -1200,15 +1572,6 @@
         "documentation": {}
     },
     {
-        "label": "CompanyResearch",
-        "kind": 6,
-        "importPath": "schemas.company_research",
-        "description": "schemas.company_research",
-        "peekOfCode": "class CompanyResearch(BaseModel):\n    official_website: str | None = None\n    company_summary: str = \"\"\n    products_services: list[str] = Field(default_factory=list)\n    technology_topics: list[str] = Field(default_factory=list)\n    sources: list[str] = Field(default_factory=list)",
-        "detail": "schemas.company_research",
-        "documentation": {}
-    },
-    {
         "label": "CoverLetter",
         "kind": 6,
         "importPath": "schemas.cover_letter",
@@ -1227,11 +1590,38 @@
         "documentation": {}
     },
     {
+        "label": "Location",
+        "kind": 6,
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "peekOfCode": "class Location(BaseModel):\n    city: str = Field(description=\"Name of the city\")\n    country: str = Field(description=\"Nam eof the country\")\nclass Address(BaseModel):\n    street: str\n    city: str\n    country: str\nclass TailoredHeader(BaseModel):\n    full_name: str\n    profile_image: str",
+        "detail": "schemas.tailored_resume",
+        "documentation": {}
+    },
+    {
+        "label": "Address",
+        "kind": 6,
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "peekOfCode": "class Address(BaseModel):\n    street: str\n    city: str\n    country: str\nclass TailoredHeader(BaseModel):\n    full_name: str\n    profile_image: str\n    address: Address\n    phone_number: str\n    email: str",
+        "detail": "schemas.tailored_resume",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredHeader",
+        "kind": 6,
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "peekOfCode": "class TailoredHeader(BaseModel):\n    full_name: str\n    profile_image: str\n    address: Address\n    phone_number: str\n    email: str\n    personal_portfolio_website: str\n    linkedin: str\n    github: str\nclass TailoredExperience(BaseModel):",
+        "detail": "schemas.tailored_resume",
+        "documentation": {}
+    },
+    {
         "label": "TailoredExperience",
         "kind": 6,
         "importPath": "schemas.tailored_resume",
         "description": "schemas.tailored_resume",
-        "peekOfCode": "class TailoredExperience(BaseModel):\n    company: str\n    selected: bool\n    bullets: list[str] = Field(default_factory=list)\nclass TailoredProject(BaseModel):\n    name: str\n    selected: bool\n    bullets: list[str] = Field(default_factory=list)\nclass TailoredResume(BaseModel):\n    professional_summary: str = \"\"",
+        "peekOfCode": "class TailoredExperience(BaseModel):\n    company: str\n    duration: str\n    location: Location\n    bullets: list[str] = Field(default_factory=list, description=\"List will have at least 2 or 3 elements which are in turn information on experience\")\nclass TailoredProject(BaseModel):\n    name: str\n    organization: str = Field(default=\"Personal Project\", description=\"States that in association of which organization was the project made.\")\n    duration: str = Field(description=\"Time duration in which the project was made\")\n    bullets: list[str] = Field(default_factory=list, description=\"List will have at least 2 or 3 elements which are in turn information on projects\")",
         "detail": "schemas.tailored_resume",
         "documentation": {}
     },
@@ -1240,7 +1630,25 @@
         "kind": 6,
         "importPath": "schemas.tailored_resume",
         "description": "schemas.tailored_resume",
-        "peekOfCode": "class TailoredProject(BaseModel):\n    name: str\n    selected: bool\n    bullets: list[str] = Field(default_factory=list)\nclass TailoredResume(BaseModel):\n    professional_summary: str = \"\"\n    experience: list[TailoredExperience] = Field(\n        default_factory=list\n    )\n    projects: list[TailoredProject] = Field(",
+        "peekOfCode": "class TailoredProject(BaseModel):\n    name: str\n    organization: str = Field(default=\"Personal Project\", description=\"States that in association of which organization was the project made.\")\n    duration: str = Field(description=\"Time duration in which the project was made\")\n    bullets: list[str] = Field(default_factory=list, description=\"List will have at least 2 or 3 elements which are in turn information on projects\")\nclass TailoredConference(BaseModel):\n    topic: str = Field(description=\"Name of the topic for which was presented in the conference\")\n    date: str = Field(description=\"Date on which conference was held and corresponding was presented\")\n    bullets: list[str] = Field(default_factory=list, description=\"List will have at least one or more points describing about topic of the conference paper published.\")\n    organization: str = Field(description=\"Name of the organization for which the conference paper was published.\")",
+        "detail": "schemas.tailored_resume",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredConference",
+        "kind": 6,
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "peekOfCode": "class TailoredConference(BaseModel):\n    topic: str = Field(description=\"Name of the topic for which was presented in the conference\")\n    date: str = Field(description=\"Date on which conference was held and corresponding was presented\")\n    bullets: list[str] = Field(default_factory=list, description=\"List will have at least one or more points describing about topic of the conference paper published.\")\n    organization: str = Field(description=\"Name of the organization for which the conference paper was published.\")\nclass TailoredAchievement(BaseModel):\n    name: str = Field(description=\"Main title about what was the achievement\")\n    datetime: str = Field(description=\"Date on which the achievement was achieved\")\n    description: Optional[str] = Field(description=\"Single line describing achievement in short. It is optional field so, depending on job description can be added or omitted.\")\nclass TailoredResume(BaseModel):",
+        "detail": "schemas.tailored_resume",
+        "documentation": {}
+    },
+    {
+        "label": "TailoredAchievement",
+        "kind": 6,
+        "importPath": "schemas.tailored_resume",
+        "description": "schemas.tailored_resume",
+        "peekOfCode": "class TailoredAchievement(BaseModel):\n    name: str = Field(description=\"Main title about what was the achievement\")\n    datetime: str = Field(description=\"Date on which the achievement was achieved\")\n    description: Optional[str] = Field(description=\"Single line describing achievement in short. It is optional field so, depending on job description can be added or omitted.\")\nclass TailoredResume(BaseModel):\n    profile_header: TailoredHeader\n    experience: list[TailoredExperience] = Field(\n        default_factory=list\n    )\n    projects: list[TailoredProject] = Field(",
         "detail": "schemas.tailored_resume",
         "documentation": {}
     },
@@ -1249,7 +1657,7 @@
         "kind": 6,
         "importPath": "schemas.tailored_resume",
         "description": "schemas.tailored_resume",
-        "peekOfCode": "class TailoredResume(BaseModel):\n    professional_summary: str = \"\"\n    experience: list[TailoredExperience] = Field(\n        default_factory=list\n    )\n    projects: list[TailoredProject] = Field(\n        default_factory=list\n    )\n    conferences: list[str] = Field(\n        default_factory=list",
+        "peekOfCode": "class TailoredResume(BaseModel):\n    profile_header: TailoredHeader\n    experience: list[TailoredExperience] = Field(\n        default_factory=list\n    )\n    projects: list[TailoredProject] = Field(\n        default_factory=list\n    )\n    conferences: list[TailoredConference] = Field(\n        default_factory=list",
         "detail": "schemas.tailored_resume",
         "documentation": {}
     },
@@ -1366,8 +1774,17 @@
         "kind": 2,
         "importPath": "workflow.nodes.generate_cover_letter",
         "description": "workflow.nodes.generate_cover_letter",
-        "peekOfCode": "def generate_cover_letter(state: JobState) -> JobState:\n    return state",
+        "peekOfCode": "def generate_cover_letter(state: JobState):\n    if not state.candidate_profile:\n        state.errors.append(\"CANDIDATE_PROFILE_MISSING\")\n        return state\n    if not state.job_match:\n        state.errors.append(\"JOB_MATCH_MISSING\")\n        return state\n    if not state.company_research:\n        state.errors.append(\"COMPANY_RESEARCH_MISSING\")\n        return state",
         "detail": "workflow.nodes.generate_cover_letter",
+        "documentation": {}
+    },
+    {
+        "label": "generate_pdfs",
+        "kind": 2,
+        "importPath": "workflow.nodes.generate_pdf",
+        "description": "workflow.nodes.generate_pdf",
+        "peekOfCode": "def generate_pdfs(state):\n    \"\"\"\n    Renders the tailored resume and cover letter to PDF and saves them locally.\n    Populates state.resume_pdf_path / state.cover_letter_pdf_path with the file paths.\n    Swap `save_pdf_locally` for a Supabase upload later — the rest of this node stays\n    the same, since it just needs to return a string (path or URL) either way.\n    \"\"\"\n    if state.tailored_resume is None:\n        state.errors.append(\"generate_pdfs: tailored_resume is missing on state.\")\n        return state",
+        "detail": "workflow.nodes.generate_pdf",
         "documentation": {}
     },
     {
@@ -1375,7 +1792,7 @@
         "kind": 2,
         "importPath": "workflow.nodes.research_company",
         "description": "workflow.nodes.research_company",
-        "peekOfCode": "def research_company(state: JobState):\n    return state",
+        "peekOfCode": "def research_company(state: JobState):\n    # check for required values\n    if not state.company_name or not state.job_title or not state.job_description:\n        state.errors = [\"All the required values are not present in the state.\"]\n        return state\n    # call llm fo doing research\n    state.company_research = call_research_company(\n        company_name=state.company_name,\n        job_title=state.job_title,\n        job_description=state.job_description,",
         "detail": "workflow.nodes.research_company",
         "documentation": {}
     },
@@ -1393,7 +1810,7 @@
         "kind": 2,
         "importPath": "workflow.nodes.tailor_resume",
         "description": "workflow.nodes.tailor_resume",
-        "peekOfCode": "def generate_tailored_resume(state: JobState) -> JobState:\n    if not state.candidate_profile:\n        state.errors.append(\"CANDIDATE_PROFILE_MISSING\")\n        return state\n    if not state.job_match:\n        state.errors.append(\"JOB_MATCH_MISSING\")\n        return state\n    # Build prompt here\n    # Call LLM\n    # Validate with TailoredResume",
+        "peekOfCode": "def generate_tailored_resume(state: JobState):\n    if not state.candidate_profile:\n        state.errors.append(\"CANDIDATE_PROFILE_MISSING\")\n        return state\n    if not state.job_match:\n        state.errors.append(\"JOB_MATCH_MISSING\")\n        return state\n    if not state.company_research:\n        state.errors.append(\"COMPANY_RESEARCH_MISSING\")\n        return state",
         "detail": "workflow.nodes.tailor_resume",
         "documentation": {}
     },
@@ -1422,6 +1839,60 @@
         "description": "workflow.graph",
         "peekOfCode": "def build_job_graph():\n    builder = StateGraph(JobState)\n    # --------------------------------------------------------\n    # Nodes\n    # --------------------------------------------------------\n    builder.add_node(\"analyze_job\", analyze_job_node)\n    builder.add_node(\"retrieve_context\", retrieve_candidate_evidence)\n    builder.add_node(\"generate_cover_letter\", generate_cover_letter)\n    builder.add_node(\"generate_tailored_resume\", generate_tailored_resume)\n    builder.add_node(\"research_company\", research_company)",
         "detail": "workflow.graph",
+        "documentation": {}
+    },
+    {
+        "label": "generate_resume_pdf",
+        "kind": 2,
+        "importPath": "workflow.pdf_generator",
+        "description": "workflow.pdf_generator",
+        "peekOfCode": "def generate_resume_pdf(resume: TailoredResume) -> bytes:\n    template = env.get_template(\"resume.html\")\n    html_out = template.render(resume=resume)\n    # base_url lets relative profile_image paths resolve; use TEMPLATES_DIR or an\n    # absolute image URL directly in profile_image if you're storing it in Supabase Storage\n    return _html_to_pdf_bytes(html_out, base_url=str(TEMPLATES_DIR))\ndef generate_cover_letter_pdf(\n    letter: CoverLetter,\n    sender: TailoredResume,  # pass resume.profile_header, or candidate_profile directly\n    letter_date: str | None = None,",
+        "detail": "workflow.pdf_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_cover_letter_pdf",
+        "kind": 2,
+        "importPath": "workflow.pdf_generator",
+        "description": "workflow.pdf_generator",
+        "peekOfCode": "def generate_cover_letter_pdf(\n    letter: CoverLetter,\n    sender: TailoredResume,  # pass resume.profile_header, or candidate_profile directly\n    letter_date: str | None = None,\n) -> bytes:\n    template = env.get_template(\"cover_letter.html\")\n    html_out = template.render(\n        letter=letter,\n        sender=sender,  # expects .full_name, .address, .phone_number, .email\n        letter_date=letter_date or date.today().strftime(\"%d.%m.%Y\"),",
+        "detail": "workflow.pdf_generator",
+        "documentation": {}
+    },
+    {
+        "label": "save_pdf_locally",
+        "kind": 2,
+        "importPath": "workflow.pdf_generator",
+        "description": "workflow.pdf_generator",
+        "peekOfCode": "def save_pdf_locally(\n    pdf_bytes: bytes, company_name: str, job_title: str, doc_type: str\n) -> str:\n    \"\"\"Saves PDF bytes to OUTPUT_DIR and returns the local file path as a string.\n    Directory structure: generated_documents/<company>-<job-title>/<doc_type>.pdf\n    \"\"\"\n    folder_name = f\"{_safe_slug(company_name)}-{_safe_slug(job_title)}\"\n    target_dir = OUTPUT_DIR / folder_name\n    target_dir.mkdir(parents=True, exist_ok=True)\n    file_path = target_dir / f\"{doc_type}.pdf\"",
+        "detail": "workflow.pdf_generator",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES_DIR",
+        "kind": 5,
+        "importPath": "workflow.pdf_generator",
+        "description": "workflow.pdf_generator",
+        "peekOfCode": "TEMPLATES_DIR = Path(__file__).parent / \"template\"\nOUTPUT_DIR = Path(__file__).parent / \"generated_documents\"\nenv = Environment(loader=FileSystemLoader(TEMPLATES_DIR))\ndef _html_to_pdf_bytes(html_str: str, base_url: str | None = None) -> bytes:\n    \"\"\"Renders HTML to PDF using headless Chromium via Playwright.\n    Writing to a temp .html file (rather than a data: URL) lets relative asset\n    paths — like profile_image — resolve correctly against base_url, same as\n    WeasyPrint's base_url parameter did.\"\"\"\n    base_dir = Path(base_url) if base_url else Path.cwd()\n    with tempfile.NamedTemporaryFile(",
+        "detail": "workflow.pdf_generator",
+        "documentation": {}
+    },
+    {
+        "label": "OUTPUT_DIR",
+        "kind": 5,
+        "importPath": "workflow.pdf_generator",
+        "description": "workflow.pdf_generator",
+        "peekOfCode": "OUTPUT_DIR = Path(__file__).parent / \"generated_documents\"\nenv = Environment(loader=FileSystemLoader(TEMPLATES_DIR))\ndef _html_to_pdf_bytes(html_str: str, base_url: str | None = None) -> bytes:\n    \"\"\"Renders HTML to PDF using headless Chromium via Playwright.\n    Writing to a temp .html file (rather than a data: URL) lets relative asset\n    paths — like profile_image — resolve correctly against base_url, same as\n    WeasyPrint's base_url parameter did.\"\"\"\n    base_dir = Path(base_url) if base_url else Path.cwd()\n    with tempfile.NamedTemporaryFile(\n        suffix=\".html\", dir=base_dir, delete=False, mode=\"w\", encoding=\"utf-8\"",
+        "detail": "workflow.pdf_generator",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "workflow.pdf_generator",
+        "description": "workflow.pdf_generator",
+        "peekOfCode": "env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))\ndef _html_to_pdf_bytes(html_str: str, base_url: str | None = None) -> bytes:\n    \"\"\"Renders HTML to PDF using headless Chromium via Playwright.\n    Writing to a temp .html file (rather than a data: URL) lets relative asset\n    paths — like profile_image — resolve correctly against base_url, same as\n    WeasyPrint's base_url parameter did.\"\"\"\n    base_dir = Path(base_url) if base_url else Path.cwd()\n    with tempfile.NamedTemporaryFile(\n        suffix=\".html\", dir=base_dir, delete=False, mode=\"w\", encoding=\"utf-8\"\n    ) as tmp:",
+        "detail": "workflow.pdf_generator",
         "documentation": {}
     },
     {

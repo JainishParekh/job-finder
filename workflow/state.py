@@ -2,6 +2,7 @@ from typing import Optional
 from pydantic import BaseModel, Field
 from schemas.job_match import JobMatch
 from schemas.candidate_profile import CandidateProfile
+from schemas.cover_letter import CoverLetter
 
 class JobState(BaseModel):
 
@@ -14,6 +15,12 @@ class JobState(BaseModel):
     company_location: str = ""
     job_title: str = ""
     job_description: str = ""
+    
+    # ========================================================
+    # Company's research
+    # ========================================================
+    
+    company_research: Optional[str] = None
     
     # ========================================================
     # Candidate Source of Truth
@@ -38,7 +45,9 @@ class JobState(BaseModel):
     # ========================================================
 
     tailored_resume: Optional[dict] = None
-    cover_letter: Optional[str] = None
+    cover_letter: Optional[CoverLetter] = None
+    resume_pdf_path: Optional[str] = None
+    cover_letter_pdf_path: Optional[str] = None
 
     # ========================================================
     # Workflow control

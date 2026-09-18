@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <style>
+        @page {
+            size: A4;
+            margin: 2.2cm;
+        }
+
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            font-size: 10.5pt;
+            color: #1a1a1a;
+            line-height: 1.5;
+        }
+
+        .sender {
+            font-size: 9pt;
+            margin-bottom: 30px;
+        }
+
+        .date {
+            text-align: right;
+            font-size: 9.5pt;
+            margin-bottom: 20px;
+        }
+
+        .recipient {
+            font-size: 9.5pt;
+            margin-bottom: 30px;
+            white-space: pre-line;
+        }
+
+        .subject {
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .greeting {
+            margin-bottom: 14px;
+        }
+
+        .body {
+            white-space: pre-line;
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+
+        .closing {
+            margin-top: 24px;
+        }
+
+        .signature {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sender">
+        {{ sender.full_name }}<br>
+        {{ sender.address.street }}<br>
+        {{ sender.address.city }}, {{ sender.address.country }}<br>
+        {{ sender.phone_number }} | {{ sender.email }}
+    </div>
+
+    <div class="date">{{ letter_date }}</div>
+
+    <div class="recipient">{{ letter.company_address }}</div>
+
+    <div class="subject">{{ letter.subject }}</div>
+
+    <div class="greeting">{{ letter.greeting }}</div>
+
+    <div class="body">{{ letter.body }}</div>
+
+    <div class="closing">{{ letter.closing }}</div>
+
+    <div class="signature">{{ sender.full_name }}</div>
+
+</body>
+
+</html>

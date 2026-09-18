@@ -1,0 +1,179 @@
+<html>
+
+<head>
+    <style>
+        @page {
+            size: A4;
+            margin: 1.8cm;
+        }
+
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            font-size: 10pt;
+            color: #1a1a1a;
+            line-height: 1.4;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 14px;
+        }
+
+        .header img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .header h1 {
+            font-size: 20pt;
+            margin: 0 0 2px 0;
+        }
+
+        .contact-line {
+            font-size: 8.5pt;
+            color: #444;
+        }
+
+        .contact-line span {
+            margin-right: 10px;
+        }
+
+        h2 {
+            font-size: 11.5pt;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1.5px solid #222;
+            margin-top: 16px;
+            margin-bottom: 6px;
+            padding-bottom: 2px;
+        }
+
+        .entry {
+            margin-bottom: 9px;
+        }
+
+        .entry-top {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        .entry-sub {
+            font-size: 9pt;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 3px;
+        }
+
+        ul {
+            margin: 2px 0 0 0;
+            padding-left: 16px;
+        }
+
+        li {
+            margin-bottom: 2px;
+        }
+
+        .skills-group {
+            margin-bottom: 4px;
+        }
+
+        .skills-group b {
+            display: inline;
+        }
+
+        .achievement-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        {% if resume.profile_header.profile_image %}
+        <img src="{{ resume.profile_header.profile_image }}" alt="">
+        {% endif %}
+        <div>
+            <h1>{{ resume.profile_header.full_name }}</h1>
+            <div class="contact-line">
+                <span>{{ resume.profile_header.address.street }}, {{ resume.profile_header.address.city }}, {{
+                    resume.profile_header.address.country }}</span><br>
+                <span>{{ resume.profile_header.phone_number }}</span>
+                <span>{{ resume.profile_header.email }}</span>
+                {% if resume.profile_header.linkedin %}<span>{{ resume.profile_header.linkedin }}</span>{% endif %}
+                {% if resume.profile_header.github %}<span>{{ resume.profile_header.github }}</span>{% endif %}
+                {% if resume.profile_header.personal_portfolio_website %}<span>{{
+                    resume.profile_header.personal_portfolio_website }}</span>{% endif %}
+            </div>
+        </div>
+    </div>
+
+    {% if resume.experience %}
+    <h2>Experience</h2>
+    {% for job in resume.experience %}
+    <div class="entry">
+        <div class="entry-top">
+            <span>{{ job.company }}</span>
+            <span>{{ job.duration }}</span>
+        </div>
+        <div class="entry-sub">{{ job.location.city }}, {{ job.location.country }}</div>
+        <ul>{% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    {% if resume.projects %}
+    <h2>Projects</h2>
+    {% for proj in resume.projects %}
+    <div class="entry">
+        <div class="entry-top">
+            <span>{{ proj.name }}</span>
+            <span>{{ proj.duration }}</span>
+        </div>
+        <div class="entry-sub">{{ proj.organization }}</div>
+        <ul>{% for b in proj.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    {% if resume.skills %}
+    <h2>Skills</h2>
+    {% for category, items in resume.skills.items() %}
+    <div class="skills-group"><b>{{ category }}:</b> {{ items | join(', ') }}</div>
+    {% endfor %}
+    {% endif %}
+
+    {% if resume.conferences %}
+    <h2>Conferences & Publications</h2>
+    {% for conf in resume.conferences %}
+    <div class="entry">
+        <div class="entry-top">
+            <span>{{ conf.topic }}</span>
+            <span>{{ conf.date }}</span>
+        </div>
+        <div class="entry-sub">{{ conf.organization }}</div>
+        <ul>{% for b in conf.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    {% if resume.achievements %}
+    <h2>Achievements</h2>
+    {% for ach in resume.achievements %}
+    <div class="achievement-row">
+        <span><b>{{ ach.name }}</b>{% if ach.description %} — {{ ach.description }}{% endif %}</span>
+        <span>{{ ach.datetime }}</span>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+</body>
+
+</html>
